@@ -68,7 +68,7 @@ import { EditorView } from "@codemirror/view";
 
 const themes = {
 ${Object.entries(themes)
-	.map(([name, val]) => `  ${name}: ${val.extension}`)
+	.map(([name, val]) => `  "${name}": ${val.extension}`)
 	.join(",\n")}
 };
 
