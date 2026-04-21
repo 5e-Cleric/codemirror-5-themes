@@ -20,34 +20,97 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-& { background: #0a001f; color: #f8f8f8; }
- div.cm-selected { background: #27007A; }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(39 0 122 / 99%); }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(39 0 122 / 99%); }
- .cm-gutters { background: #0a001f; border-right: 1px solid #aaa; }
- .cm-gutterElement span { color: #FFBD40; }
- 
- .cm-linenumber { color: #f8f8f8; }
- .cm-cursor { border-left: 1px solid white; }
+& {
+    background: #0a001f;
+    color: #f8f8f8;
+}
+div.cm-selected {
+    background: #27007a;
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(39 0 122 / 99%);
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(39 0 122 / 99%);
+}
+.cm-gutters {
+    background: #0a001f;
+    border-right: 1px solid #aaa;
+}
+.cm-gutterElement span {
+    color: #ffbd40;
+}
 
- .cm-keyword { color: #FFBD40; }
- .cm-atom { color: #6C8CD5; }
- .cm-number { color: #164; }
- .cm-def { color: #FFF; text-decoration:underline; }
- .cm-variable { color: #FFF; }
- .cm-variable-2 { color: #EEE; }
- .cm-variable-3,  .cm-type { color: #DDD; }
- .cm-property {}
- .cm-operator {}
- .cm-comment { color: gray; }
- .cm-string { color: #9FEE00; }
- .cm-meta { color: yellow; }
- .cm-qualifier { color: #FFF700; }
- .cm-builtin { color: #30a; }
- .cm-bracket { color: #cc7; }
- .cm-tag { color: #FFBD40; }
- .cm-attribute { color: #FFF700; }
- .cm-error { color: #f00; }
+.cm-linenumber {
+    color: #f8f8f8;
+}
+.cm-cursor {
+    border-left: 1px solid white;
+}
 
- .cm-activeLine{ background: #27282E; }
- .cm-matchingbracket { outline:1px solid grey; color:white !important; }
+.cm-keyword {
+    color: #ffbd40;
+}
+.cm-atom {
+    color: #6c8cd5;
+}
+.cm-number {
+    color: #164;
+}
+.cm-def {
+    color: #fff;
+    text-decoration: underline;
+}
+.cm-variable {
+    color: #fff;
+}
+.cm-variable-2 {
+    color: #eee;
+}
+.cm-variable-3,
+.cm-type {
+    color: #ddd;
+}
+.cm-property {
+}
+.cm-operator {
+}
+.cm-comment {
+    color: gray;
+}
+.cm-string {
+    color: #9fee00;
+}
+.cm-meta {
+    color: yellow;
+}
+.cm-qualifier {
+    color: #fff700;
+}
+.cm-builtin {
+    color: #30a;
+}
+.cm-bracket {
+    color: #cc7;
+}
+.cm-tag {
+    color: #ffbd40;
+}
+.cm-attribute {
+    color: #fff700;
+}
+.cm-error {
+    color: #f00;
+}
+
+.cm-activeLine {
+    background: #27282e;
+}
+.cm-matchingbracket {
+    outline: 1px solid grey;
+    color: white !important;
+}

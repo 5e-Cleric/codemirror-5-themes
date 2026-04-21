@@ -8,30 +8,91 @@
  * From: https://github.com/wisenomad/zenburn-lighttable-theme/blob/master/zenburn.css
  */
 
- .cm-gutters { background: #3f3f3f !important; }
- .cm-foldgutter-open, .cm-foldgutter-folded { color: #999; }
- .cm-cursor { border-left: 1px solid white; }
-& { background-color: #3f3f3f; color: #dcdccc; }
- .cm-builtin { color: #dcdccc; font-weight: bold; }
- .cm-comment { color: #7f9f7f; }
- .cm-keyword { color: #f0dfaf; font-weight: bold; }
- .cm-atom { color: #bfebbf; }
- .cm-def { color: #dcdccc; }
- .cm-variable { color: #dfaf8f; }
- .cm-variable-2 { color: #dcdccc; }
- .cm-string { color: #cc9393; }
- .cm-string-2 { color: #cc9393; }
- .cm-number { color: #dcdccc; }
- .cm-tag { color: #93e0e3; }
- .cm-property { color: #dfaf8f; }
- .cm-attribute { color: #dfaf8f; }
- .cm-qualifier { color: #7cb8bb; }
- .cm-meta { color: #f0dfaf; }
- .cm-header { color: #f0efd0; }
- .cm-operator { color: #f0efd0; }
- .cm-matchingbracket { box-sizing: border-box; background: transparent; border-bottom: 1px solid; }
- .cm-nonmatchingbracket { border-bottom: 1px solid; background: none; }
- .cm-activeline { background: #000; }
- .cm-activeLine{ background: #000; }
- div.cm-selected { background: #545454; }
- .cm-focused div.cm-selected { background: #4f4f4f; }
+.cm-gutters {
+    background: #3f3f3f !important;
+}
+.cm-foldgutter-open,
+.cm-foldgutter-folded {
+    color: #999;
+}
+.cm-cursor {
+    border-left: 1px solid white;
+}
+& {
+    background-color: #3f3f3f;
+    color: #dcdccc;
+}
+.cm-builtin {
+    color: #dcdccc;
+    font-weight: bold;
+}
+.cm-comment {
+    color: #7f9f7f;
+}
+.cm-keyword {
+    color: #f0dfaf;
+    font-weight: bold;
+}
+.cm-atom {
+    color: #bfebbf;
+}
+.cm-def {
+    color: #dcdccc;
+}
+.cm-variable {
+    color: #dfaf8f;
+}
+.cm-variable-2 {
+    color: #dcdccc;
+}
+.cm-string {
+    color: #cc9393;
+}
+.cm-string-2 {
+    color: #cc9393;
+}
+.cm-number {
+    color: #dcdccc;
+}
+.cm-tag {
+    color: #93e0e3;
+}
+.cm-property {
+    color: #dfaf8f;
+}
+.cm-attribute {
+    color: #dfaf8f;
+}
+.cm-qualifier {
+    color: #7cb8bb;
+}
+.cm-meta {
+    color: #f0dfaf;
+}
+.cm-header {
+    color: #f0efd0;
+}
+.cm-operator {
+    color: #f0efd0;
+}
+.cm-matchingbracket {
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid;
+}
+.cm-nonmatchingbracket {
+    border-bottom: 1px solid;
+    background: none;
+}
+.cm-activeline {
+    background: #000;
+}
+.cm-activeLine {
+    background: #000;
+}
+div.cm-selected {
+    background: #545454;
+}
+.cm-focused div.cm-selected {
+    background: #4f4f4f;
+}

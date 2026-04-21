@@ -8,31 +8,86 @@
 
 */
 
-& { background: #000; color: #CCC; }
- div.cm-selected { background: #2D2D2D; }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(45 45 45 / 99%); }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(45 45 45 / 99%); }
- .cm-gutters { background: #000; border-right: 0; }
- .cm-gutterElement span { color: #f2777a; }
- 
- .cm-linenumber { color: #515151; }
- .cm-cursor { border-left: 1px solid #6A6A6A; }
+& {
+    background: #000;
+    color: #ccc;
+}
+div.cm-selected {
+    background: #2d2d2d;
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(45 45 45 / 99%);
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(45 45 45 / 99%);
+}
+.cm-gutters {
+    background: #000;
+    border-right: 0;
+}
+.cm-gutterElement span {
+    color: #f2777a;
+}
 
- .cm-comment { color: #d27b53; }
- .cm-atom { color: #a16a94; }
- .cm-number { color: #a16a94; }
+.cm-linenumber {
+    color: #515151;
+}
+.cm-cursor {
+    border-left: 1px solid #6a6a6a;
+}
 
- .cm-property,  .cm-attribute { color: #9c9; }
- .cm-keyword { color: #f2777a; }
- .cm-string { color: #fc6; }
+.cm-comment {
+    color: #d27b53;
+}
+.cm-atom {
+    color: #a16a94;
+}
+.cm-number {
+    color: #a16a94;
+}
 
- .cm-variable { color: #9c9; }
- .cm-variable-2 { color: #69c; }
- .cm-def { color: #f99157; }
- .cm-bracket { color: #CCC; }
- .cm-tag { color: #f2777a; }
- .cm-link { color: #a16a94; }
- .cm-error { background: #f2777a; color: #6A6A6A; }
+.cm-property,
+.cm-attribute {
+    color: #9c9;
+}
+.cm-keyword {
+    color: #f2777a;
+}
+.cm-string {
+    color: #fc6;
+}
 
- .cm-activeLine{ background: #343600; }
- .cm-matchingbracket { text-decoration: underline; color: white !important; }
+.cm-variable {
+    color: #9c9;
+}
+.cm-variable-2 {
+    color: #69c;
+}
+.cm-def {
+    color: #f99157;
+}
+.cm-bracket {
+    color: #ccc;
+}
+.cm-tag {
+    color: #f2777a;
+}
+.cm-link {
+    color: #a16a94;
+}
+.cm-error {
+    background: #f2777a;
+    color: #6a6a6a;
+}
+
+.cm-activeLine {
+    background: #343600;
+}
+.cm-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+}

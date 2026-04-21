@@ -1,33 +1,87 @@
-& { background: #000; color: #f8f8f8; }
- .cm-gutters { background: #0a001f; border-right: 1px solid #aaa; }
- .cm-gutterElement span { color: #FFBD40; }
- 
- .cm-linenumber { color: #bababa; }
- .cm-cursor { border-left: 1px solid white; }
+& {
+    background: #000;
+    color: #f8f8f8;
+}
+.cm-gutters {
+    background: #0a001f;
+    border-right: 1px solid #aaa;
+}
+.cm-gutterElement span {
+    color: #ffbd40;
+}
 
- .cm-comment     { color: #ededed; }
- .cm-def         { color: #ff1c1c; font-weight:bold; }
- .cm-keyword     { color: #ffd900; }
- .cm-builtin     { color: #00d95a; }
- .cm-variable    { color: #73ff00; }
- .cm-string      { color: #007bff; }
- .cm-number      { color: #00c4ff; }
- .cm-atom        { color: #606060; }
+.cm-linenumber {
+    color: #bababa;
+}
+.cm-cursor {
+    border-left: 1px solid white;
+}
 
- .cm-variable-2  { color: #EEE; }
- .cm-variable-3,  .cm-type { color: #DDD; }
- .cm-property    {}
- .cm-operator    {}
+.cm-comment {
+    color: #ededed;
+}
+.cm-def {
+    color: #ff1c1c;
+    font-weight: bold;
+}
+.cm-keyword {
+    color: #ffd900;
+}
+.cm-builtin {
+    color: #00d95a;
+}
+.cm-variable {
+    color: #73ff00;
+}
+.cm-string {
+    color: #007bff;
+}
+.cm-number {
+    color: #00c4ff;
+}
+.cm-atom {
+    color: #606060;
+}
 
- .cm-meta        { color: yellow; }
- .cm-qualifier   { color: #FFF700; }
- .cm-bracket     { color: #cc7; }
- .cm-tag         { color: #FFBD40; }
- .cm-attribute   { color: #FFF700; }
- .cm-error       { color: #f00; }
+.cm-variable-2 {
+    color: #eee;
+}
+.cm-variable-3,
+.cm-type {
+    color: #ddd;
+}
+.cm-property {
+}
+.cm-operator {
+}
 
- div.cm-selected { background: #333d53; }
+.cm-meta {
+    color: yellow;
+}
+.cm-qualifier {
+    color: #fff700;
+}
+.cm-bracket {
+    color: #cc7;
+}
+.cm-tag {
+    color: #ffbd40;
+}
+.cm-attribute {
+    color: #fff700;
+}
+.cm-error {
+    color: #f00;
+}
 
- .cm-compilation { background: rgb(255 255 255 / 12%); }
+div.cm-selected {
+    background: #333d53;
+}
 
- .cm-activeLine{ background: #253540; }
+.cm-compilation {
+    background: rgb(255 255 255 / 12%);
+}
+
+.cm-activeLine {
+    background: #253540;
+}

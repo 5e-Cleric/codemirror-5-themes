@@ -1,17 +1,43 @@
- .cm-keyword { color: blue; }
- .cm-comment { color: darkgreen; }
- .cm-string { color: red; }
- .cm-def { color: black; }
- .cm-variable { color: black; }
- .cm-variable-2 { color: black; }
- .cm-atom { color: darkgray; }
- .cm-linenumber { color: teal; }
- .cm-activeLine{ background: #fff; }
- .cm-string-2 { color: #F0F; }
+.cm-keyword {
+    color: blue;
+}
+.cm-comment {
+    color: darkgreen;
+}
+.cm-string {
+    color: red;
+}
+.cm-def {
+    color: black;
+}
+.cm-variable {
+    color: black;
+}
+.cm-variable-2 {
+    color: black;
+}
+.cm-atom {
+    color: darkgray;
+}
+.cm-linenumber {
+    color: teal;
+}
+.cm-activeLine {
+    background: #fff;
+}
+.cm-string-2 {
+    color: #f0f;
+}
 
- .cm-operator, 
- .cm-bracket, 
- .cm-punctuation { color: darkgray; }
- .cm-gutters { border-right: 3px solid #ffee62; background-color: #fff; }
- div.cm-selected { background: #ADD6FF; }
-
+.cm-operator,
+.cm-bracket,
+.cm-punctuation {
+    color: darkgray;
+}
+.cm-gutters {
+    border-right: 3px solid #ffee62;
+    background-color: #fff;
+}
+div.cm-selected {
+    background: #add6ff;
+}

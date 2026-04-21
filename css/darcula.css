@@ -3,51 +3,134 @@
     From IntelliJ IDEA by JetBrains
  */
 
-  { font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;}
-& { background: #2B2B2B; color: #A9B7C6; }
+& {
+    background: #2b2b2b;
+    color: #a9b7c6;
+    font-family:
+        Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono",
+        "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New",
+        monospace, serif;
+}
 
- .cm-meta { color: #BBB529; }
- .cm-number { color: #6897BB; }
- .cm-keyword { color: #CC7832; line-height: 1em; font-weight: bold; }
- .cm-def { color: #A9B7C6; font-style: italic; }
- .cm-variable { color: #A9B7C6; }
- .cm-variable-2 { color: #A9B7C6; }
- .cm-variable-3 { color: #9876AA; }
- .cm-type { color: #ABC; font-weight: bold; }
- .cm-property { color: #FFC66D; }
- .cm-operator { color: #A9B7C6; }
- .cm-string { color: #6A8759; }
- .cm-string-2 { color: #6A8759; }
- .cm-comment { color: #61A151; font-style: italic; }
- .cm-link { color: #CC7832; }
- .cm-atom { color: #CC7832; }
- .cm-error { color: #BC3F3C; }
- .cm-tag { color: #629755; font-weight: bold; font-style: italic; text-decoration: underline; }
- .cm-attribute { color: #6897bb; }
- .cm-qualifier { color: #6A8759; }
- .cm-bracket { color: #A9B7C6; }
- .cm-builtin { color: #FF9E59; }
- .cm-special { color: #FF9E59; }
- .cm-matchhighlight { color: #FFF; background-color: rgb(50 89 48 / 70%); font-weight: normal;}
- .cm-searching { color: #FFF; background-color: rgb(61 115 59 / 70%); font-weight: normal;}
+.cm-meta {
+    color: #bbb529;
+}
+.cm-number {
+    color: #6897bb;
+}
+.cm-keyword {
+    color: #cc7832;
+    line-height: 1em;
+    font-weight: bold;
+}
+.cm-def {
+    color: #a9b7c6;
+    font-style: italic;
+}
+.cm-variable {
+    color: #a9b7c6;
+}
+.cm-variable-2 {
+    color: #a9b7c6;
+}
+.cm-variable-3 {
+    color: #9876aa;
+}
+.cm-type {
+    color: #abc;
+    font-weight: bold;
+}
+.cm-property {
+    color: #ffc66d;
+}
+.cm-operator {
+    color: #a9b7c6;
+}
+.cm-string {
+    color: #6a8759;
+}
+.cm-string-2 {
+    color: #6a8759;
+}
+.cm-comment {
+    color: #61a151;
+    font-style: italic;
+}
+.cm-link {
+    color: #cc7832;
+}
+.cm-atom {
+    color: #cc7832;
+}
+.cm-error {
+    color: #bc3f3c;
+}
+.cm-tag {
+    color: #629755;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.cm-attribute {
+    color: #6897bb;
+}
+.cm-qualifier {
+    color: #6a8759;
+}
+.cm-bracket {
+    color: #a9b7c6;
+}
+.cm-builtin {
+    color: #ff9e59;
+}
+.cm-special {
+    color: #ff9e59;
+}
+.cm-matchhighlight {
+    color: #fff;
+    background-color: rgb(50 89 48 / 70%);
+    font-weight: normal;
+}
+.cm-searching {
+    color: #fff;
+    background-color: rgb(61 115 59 / 70%);
+    font-weight: normal;
+}
 
- .cm-cursor { border-left: 1px solid #A9B7C6; }
- .cm-activeLine{ background: #323232; }
- .cm-gutters { background: #313335; border-right: 1px solid #313335; }
- .cm-gutterElement span { color: #FFEE80; }
- 
- .CodeMirrir-linenumber { color: #606366; }
- .cm-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; font-weight: bold; }
+.cm-cursor {
+    border-left: 1px solid #a9b7c6;
+}
+.cm-activeLine {
+    background: #323232;
+}
+.cm-gutters {
+    background: #313335;
+    border-right: 1px solid #313335;
+}
+.cm-gutterElement span {
+    color: #ffee80;
+}
 
- div.cm-selected { background: #214283; }
+.CodeMirrir-linenumber {
+    color: #606366;
+}
+.cm-matchingbracket {
+    background-color: #3b514d;
+    color: #ffef28 !important;
+    font-weight: bold;
+}
+
+div.cm-selected {
+    background: #214283;
+}
 
 .cm-hints.darcula {
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-  color: #9C9E9E;
-  background-color: #3B3E3F !important;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: #9c9e9e;
+    background-color: #3b3e3f !important;
 }
 
 .cm-hints.darcula .cm-hint-active {
-  background-color: #494D4E !important;
-  color: #9C9E9E !important;
+    background-color: #494d4e !important;
+    color: #9c9e9e !important;
 }

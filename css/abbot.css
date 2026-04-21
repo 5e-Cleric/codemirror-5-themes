@@ -46,27 +46,27 @@
 
 /* Equivalent to Vim's Normal group. */
 & {
-	background: #231c14 /* bistre */;
-	color: #d8ff84 /* pastel_chartreuse */;
+    background: #231c14 /* bistre */;
+    color: #d8ff84 /* pastel_chartreuse */;
 }
 
 /* Roughly equivalent to Vim's LineNr group. */
 .cm-gutters {
-	background: #231c14 /* bistre */;
-	border: none;
+    background: #231c14 /* bistre */;
+    border: none;
 }
 
 .cm-linenumber {
-	color: #fbec5d /* lemon_meringue */;
+    color: #fbec5d /* lemon_meringue */;
 }
 
 .cm-gutterElement span {
-	color: #f63f05 /* cinnabar */;
+    color: #f63f05 /* cinnabar */;
 }
 
 /* Roughly equivalent to Vim's FoldColumn group. */
 .cm-gutterElement span-subtle {
-	color: #fbb32f /* marigold */;
+    color: #fbb32f /* marigold */;
 }
 
 /*
@@ -75,113 +75,113 @@
  * CodeMirror's rule just highlights a thin line.)
  */
 .cm-ruler {
-	border-color: #745d42 /* cocoa */;
+    border-color: #745d42 /* cocoa */;
 }
 
 /* Equivalent to Vim's Cursor group in insert mode. */
 .cm-cursor {
-	border-color: #a0ea00 /* chartreuse */;
+    border-color: #a0ea00 /* chartreuse */;
 }
 
 /* Equivalent to Vim's Cursor group in normal mode. */
 .cm-fat-cursor .cm-cursor,
 .cm-animate-fat-cursor {
-	/*
+    /*
    * CodeMirror doesn't allow changing the foreground color of the character
    * under the cursor, so we can't use a reverse video effect for the cursor.
    * Instead, make it semitransparent.
    */
-	background: rgb(160 234 0 / 50%) /* chartreuse */;
+    background: rgb(160 234 0 / 50%) /* chartreuse */;
 }
 
 .cm-fat-cursor .cm-cursors {
-	/*
+    /*
    * Boost the z-index so the fat cursor shows up on top of text and
    * matchingbracket/matchingtag highlights.
    */
-	z-index: 3;
+    z-index: 3;
 }
 
 /* Equivalent to Vim's Cursor group in replace mode. */
 .cm-overwrite .cm-cursor {
-	border-bottom: 1px solid #a0ea00 /* chartreuse */;
-	border-left: none;
-	width: auto;
+    border-bottom: 1px solid #a0ea00 /* chartreuse */;
+    border-left: none;
+    width: auto;
 }
 
 /* Roughly equivalent to Vim's CursorIM group. */
 .cm-secondarycursor {
-	border-color: #00ff7f /* seafoam_green */;
+    border-color: #00ff7f /* seafoam_green */;
 }
 
 /* Roughly equivalent to Vim's Visual group. */
 .cm-selected,
 .cm-focused .cm-selected {
-	background: #273900 /* dark_olive */;
+    background: #273900 /* dark_olive */;
 }
 
 .cm-line::selection,
 .cm-line > span::selection,
 .cm-line > span > span::selection {
-	background: #273900 /* dark_olive */;
+    background: #273900 /* dark_olive */;
 }
 
 .cm-line::selection,
 .cm-line > span::selection,
 .cm-line > span > span::selection {
-	background: #273900 /* dark_olive */;
+    background: #273900 /* dark_olive */;
 }
 
 /* Roughly equivalent to Vim's SpecialKey group. */
 .cm-tab {
-	color: #00ff7f /* seafoam_green */;
+    color: #00ff7f /* seafoam_green */;
 }
 
 /* Equivalent to Vim's Search group. */
 .cm-searching {
-	background: #fef3b4 /* vanilla_cream */ !important;
-	color: #231c14 /* bistre */ !important;
+    background: #fef3b4 /* vanilla_cream */ !important;
+    color: #231c14 /* bistre */ !important;
 }
 
 /* Style syntax highlighting modes: */
 
 /* Equivalent to Vim's Comment group. */
 .cm-comment {
-	color: #fbb32f /* marigold */;
-	font-style: italic;
+    color: #fbb32f /* marigold */;
+    font-style: italic;
 }
 
 /* Equivalent to Vim's String group. */
 .cm-string,
 .cm-string-2 {
-	color: #e6a2f3 /* lavender */;
+    color: #e6a2f3 /* lavender */;
 }
 
 /* Equivalent to Vim's Constant group. */
 .cm-number,
 .cm-string.cm-url {
-	color: #f63f05 /* cinnabar */;
+    color: #f63f05 /* cinnabar */;
 }
 
 /* Roughly equivalent to Vim's SpecialKey group. */
 .cm-invalidchar {
-	color: #00ff7f /* seafoam_green */;
+    color: #00ff7f /* seafoam_green */;
 }
 
 /* Equivalent to Vim's Special group. */
 .cm-atom {
-	color: #fef3b4 /* vanilla_cream */;
+    color: #fef3b4 /* vanilla_cream */;
 }
 
 /* Equivalent to Vim's Delimiter group. */
 .cm-bracket,
 .cm-punctuation {
-	color: #fef3b4 /* vanilla_cream */;
+    color: #fef3b4 /* vanilla_cream */;
 }
 
 /* Equivalent Vim's Operator group. */
 .cm-operator {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 /* Roughly equivalent to Vim's Identifier group. */
@@ -189,85 +189,85 @@
 .cm-variable,
 .cm-variable-2,
 .cm-variable-3 {
-	color: #8ccdf0 /* periwinkle_blue */;
+    color: #8ccdf0 /* periwinkle_blue */;
 }
 
 /* Roughly equivalent to Vim's Function group. */
 .cm-builtin,
 .cm-property,
 .cm-qualifier {
-	color: #3f91f1 /* cornflower_blue */;
+    color: #3f91f1 /* cornflower_blue */;
 }
 
 /* Equivalent to Vim's Type group. */
 .cm-type {
-	color: #24a507 /* forest_green */;
+    color: #24a507 /* forest_green */;
 }
 
 /* Equivalent to Vim's Keyword group. */
 .cm-keyword {
-	color: #d80450 /* crimson */;
-	font-weight: bold;
+    color: #d80450 /* crimson */;
+    font-weight: bold;
 }
 
 /* Equivalent to Vim's PreProc group. */
 .cm-meta {
-	color: #ec6c99 /* french_pink */;
+    color: #ec6c99 /* french_pink */;
 }
 
 /* Equivalent to Vim's htmlTagName group (linked to Statement). */
 .cm-tag {
-	color: #d80450 /* crimson */;
-	font-weight: bold;
+    color: #d80450 /* crimson */;
+    font-weight: bold;
 }
 
 /* Equivalent to Vim's htmlArg group (linked to Type). */
 .cm-attribute {
-	color: #24a507 /* forest_green */;
+    color: #24a507 /* forest_green */;
 }
 
 /* Equivalent to Vim's htmlH1, markdownH1, etc. groups (linked to Title). */
 .cm-header {
-	color: #d80450 /* crimson */;
-	font-weight: bold;
+    color: #d80450 /* crimson */;
+    font-weight: bold;
 }
 
 /* Equivalent to Vim's markdownRule group (linked to PreProc). */
 .cm-hr {
-	color: #ec6c99 /* french_pink */;
+    color: #ec6c99 /* french_pink */;
 }
 
 /* Roughly equivalent to Vim's Underlined group. */
 .cm-link {
-	color: #e6a2f3 /* lavender */;
+    color: #e6a2f3 /* lavender */;
 }
 
 /* Equivalent to Vim's diffRemoved group. */
 .cm-negative {
-	background: #d80450 /* crimson */;
-	color: #231c14 /* bistre */;
+    background: #d80450 /* crimson */;
+    color: #231c14 /* bistre */;
 }
 
 /* Equivalent to Vim's diffAdded group. */
 .cm-positive {
-	background: #a0ea00 /* chartreuse */;
-	color: #231c14 /* bistre */;
-	font-weight: bold;
+    background: #a0ea00 /* chartreuse */;
+    color: #231c14 /* bistre */;
+    font-weight: bold;
 }
 
 /* Equivalent to Vim's Error group. */
 .cm-error {
-	background: #d80450 /* crimson */;
-	color: #231c14 /* bistre */;
+    background: #d80450 /* crimson */;
+    color: #231c14 /* bistre */;
 }
 
 /* Style addons: */
 
 /* Equivalent to Vim's MatchParen group. */
 .cm-matchingbracket {
-	background: #745d42 /* cocoa */ !important;
-	color: #231c14 /* bistre */ !important;
-	font-weight: bold;
+    background: #745d42 /* cocoa */ !important;
+    color: #231c14 /* bistre */ !important;
+    font-weight: bold;
 }
 
 /*
@@ -276,29 +276,29 @@
  * mark mismatched brackets as Error.)
  */
 .cm-nonmatchingbracket {
-	background: #d80450 /* crimson */ !important;
-	color: #231c14 /* bistre */ !important;
+    background: #d80450 /* crimson */ !important;
+    color: #231c14 /* bistre */ !important;
 }
 
 .cm-matchingtag,
 .cm-matchhighlight {
-	outline: 1px solid #39a78d /* zomp */;
+    outline: 1px solid #39a78d /* zomp */;
 }
 
 /* Equivalent to Vim's CursorLine group. */
 .cm-activeLine,
 .cm-activeline-gutter {
-	background: #3c3022 /* chocolate */;
+    background: #3c3022 /* chocolate */;
 }
 
 /* Equivalent to Vim's CursorLineNr group. */
 .cm-activeLineGutter {
-	color: #d8ff84 /* pastel_chartreuse */;
-	font-weight: bold;
+    color: #d8ff84 /* pastel_chartreuse */;
+    font-weight: bold;
 }
 
 /* Roughly equivalent to Vim's Folded group. */
 .cm-gutterElement span {
-	color: #f63f05 /* cinnabar */;
-	text-shadow: none;
+    color: #f63f05 /* cinnabar */;
+    text-shadow: none;
 }

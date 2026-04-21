@@ -7,33 +7,91 @@
 
 */
 
-&,  .cm-gutters { background-color: #282828; color: #bdae93; }
- .cm-gutters {background: #282828; border-right: 0;}
- .cm-linenumber {color: #7c6f64;}
- .cm-cursor { border-left: 1px solid #ebdbb2; }
-.cm-fat-cursor .cm-cursor { background-color: #8e8d8875 !important; }
- .cm-animate-fat-cursor { background-color: #8e8d8875 !important; }
- div.cm-selected { background: #928374; }
- .cm-meta { color: #83a598; }
+&,
+.cm-gutters {
+    background-color: #282828;
+    color: #bdae93;
+}
+.cm-gutters {
+    background: #282828;
+    border-right: 0;
+}
+.cm-linenumber {
+    color: #7c6f64;
+}
+.cm-cursor {
+    border-left: 1px solid #ebdbb2;
+}
+.cm-fat-cursor .cm-cursor {
+    background-color: #8e8d8875 !important;
+}
+.cm-animate-fat-cursor {
+    background-color: #8e8d8875 !important;
+}
+div.cm-selected {
+    background: #928374;
+}
+.cm-meta {
+    color: #83a598;
+}
 
- .cm-comment { color: #928374; }
- .cm-number, .cm-atom { color: #d3869b; }
- .cm-keyword { color: #f84934; }
+.cm-comment {
+    color: #928374;
+}
+.cm-number,
+.cm-atom {
+    color: #d3869b;
+}
+.cm-keyword {
+    color: #f84934;
+}
 
- .cm-variable { color: #ebdbb2; }
- .cm-variable-2 { color: #ebdbb2; }
- .cm-variable-3,  .cm-type { color: #fabd2f; }
- .cm-operator { color: #ebdbb2; }
- .cm-callee { color: #ebdbb2; }
- .cm-def { color: #ebdbb2; }
- .cm-property { color: #ebdbb2; }
- .cm-string { color: #b8bb26; }
- .cm-string-2 { color: #8ec07c; }
- .cm-qualifier { color: #8ec07c; }
- .cm-attribute { color: #8ec07c; }
+.cm-variable {
+    color: #ebdbb2;
+}
+.cm-variable-2 {
+    color: #ebdbb2;
+}
+.cm-variable-3,
+.cm-type {
+    color: #fabd2f;
+}
+.cm-operator {
+    color: #ebdbb2;
+}
+.cm-callee {
+    color: #ebdbb2;
+}
+.cm-def {
+    color: #ebdbb2;
+}
+.cm-property {
+    color: #ebdbb2;
+}
+.cm-string {
+    color: #b8bb26;
+}
+.cm-string-2 {
+    color: #8ec07c;
+}
+.cm-qualifier {
+    color: #8ec07c;
+}
+.cm-attribute {
+    color: #8ec07c;
+}
 
- .cm-activeLine{ background: #3c3836; }
- .cm-matchingbracket { background: #928374; color:#282828 !important; }
+.cm-activeLine {
+    background: #3c3836;
+}
+.cm-matchingbracket {
+    background: #928374;
+    color: #282828 !important;
+}
 
- .cm-builtin { color: #fe8019; }
- .cm-tag { color: #fe8019; }
+.cm-builtin {
+    color: #fe8019;
+}
+.cm-tag {
+    color: #fe8019;
+}

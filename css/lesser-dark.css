@@ -2,46 +2,125 @@
 http://lesscss.org/ dark theme
 Ported to CodeMirror by Peter Kroon
 */
- {
-  line-height: 1.3em;
+& {
+    line-height: 1.3em;
 }
-& { background: #262626; color: #EBEFE7; text-shadow: 0 -1px 1px #262626; }
- div.cm-selected { background: #45443B; } /* 33322B */
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(69 68 59 / 99%); }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(69 68 59 / 99%); }
- .cm-cursor { border-left: 1px solid white; }
- pre { padding: 0 8px; }/* editable code holder */
+& {
+    background: #262626;
+    color: #ebefe7;
+    text-shadow: 0 -1px 1px #262626;
+}
+div.cm-selected {
+    background: #45443b;
+} /* 33322B */
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(69 68 59 / 99%);
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(69 68 59 / 99%);
+}
+.cm-cursor {
+    border-left: 1px solid white;
+}
+pre {
+    padding: 0 8px;
+} /* editable code holder */
 
-& .cm-matchingbracket { color: #7EFC7E; }/* 65FC65 */
+& .cm-matchingbracket {
+    color: #7efc7e;
+} /* 65FC65 */
 
- .cm-gutters { background: #262626; border-right:1px solid #aaa; }
- .cm-gutterElement span { color: #599eff; }
- 
- .cm-linenumber { color: #777; }
+.cm-gutters {
+    background: #262626;
+    border-right: 1px solid #aaa;
+}
+.cm-gutterElement span {
+    color: #599eff;
+}
 
- .cm-header { color: #a0a; }
- .cm-quote { color: #090; }
- .cm-keyword { color: #599eff; }
- .cm-atom { color: #C2B470; }
- .cm-number { color: #B35E4D; }
- .cm-def { color: white; }
- .cm-variable { color:#D9BF8C; }
- .cm-variable-2 { color: #669199; }
- .cm-variable-3,  .cm-type { color: white; }
- .cm-property { color: #92A75C; }
- .cm-operator { color: #92A75C; }
- .cm-comment { color: #666; }
- .cm-string { color: #BCD279; }
- .cm-string-2 { color: #f50; }
- .cm-meta { color: #738C73; }
- .cm-qualifier { color: #555; }
- .cm-builtin { color: #ff9e59; }
- .cm-bracket { color: #EBEFE7; }
- .cm-tag { color: #669199; }
- .cm-attribute { color: #81a4d5; }
- .cm-hr { color: #999; }
- .cm-link { color: #7070E6; }
- .cm-error { color: #9d1e15; }
+.cm-linenumber {
+    color: #777;
+}
 
- .cm-activeLine{ background: #3C3A3A; }
- .cm-matchingbracket { outline:1px solid grey; color:white !important; }
+.cm-header {
+    color: #a0a;
+}
+.cm-quote {
+    color: #090;
+}
+.cm-keyword {
+    color: #599eff;
+}
+.cm-atom {
+    color: #c2b470;
+}
+.cm-number {
+    color: #b35e4d;
+}
+.cm-def {
+    color: white;
+}
+.cm-variable {
+    color: #d9bf8c;
+}
+.cm-variable-2 {
+    color: #669199;
+}
+.cm-variable-3,
+.cm-type {
+    color: white;
+}
+.cm-property {
+    color: #92a75c;
+}
+.cm-operator {
+    color: #92a75c;
+}
+.cm-comment {
+    color: #666;
+}
+.cm-string {
+    color: #bcd279;
+}
+.cm-string-2 {
+    color: #f50;
+}
+.cm-meta {
+    color: #738c73;
+}
+.cm-qualifier {
+    color: #555;
+}
+.cm-builtin {
+    color: #ff9e59;
+}
+.cm-bracket {
+    color: #ebefe7;
+}
+.cm-tag {
+    color: #669199;
+}
+.cm-attribute {
+    color: #81a4d5;
+}
+.cm-hr {
+    color: #999;
+}
+.cm-link {
+    color: #7070e6;
+}
+.cm-error {
+    color: #9d1e15;
+}
+
+.cm-activeLine {
+    background: #3c3a3a;
+}
+.cm-matchingbracket {
+    outline: 1px solid grey;
+    color: white !important;
+}

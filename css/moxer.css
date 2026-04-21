@@ -5,139 +5,135 @@
 */
 
 & {
-  background-color: #090A0F;
-  color: #8E95B4;
-  line-height: 1.8;
+    background-color: #090a0f;
+    color: #8e95b4;
+    line-height: 1.8;
 }
 
- .cm-gutters {
-  background: #090A0F;
-  color: #35394B;
-  border: none;
+.cm-gutters {
+    background: #090a0f;
+    color: #35394b;
+    border: none;
 }
 
- .cm-gutterElement span,
-
- .cm-linenumber {
-  color: #35394B;
+.cm-gutterElement span,
+.cm-linenumber {
+    color: #35394b;
 }
 
-
- .cm-cursor {
-  border-left: 1px solid #FC0;
+.cm-cursor {
+    border-left: 1px solid #fc0;
 }
 
- div.cm-selected {
-  background: rgb(128 203 196 / 20%);
+div.cm-selected {
+    background: rgb(128 203 196 / 20%);
 }
 
 .cm-focused div.cm-selected {
-  background: #212431;
+    background: #212431;
 }
 
- .cm-line::selection,
- .cm-line>span::selection,
- .cm-line>span>span::selection {
-  background: #212431;
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: #212431;
 }
 
- .cm-line::selection,
- .cm-line>span::selection,
- .cm-line>span>span::selection {
-  background: #212431;
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: #212431;
 }
 
- .cm-activeline-background,
- .cm-activeline-gutter .cm-linenumber {
-  background: rgb(33 36 49 / 50%);
+.cm-activeline-background,
+.cm-activeline-gutter .cm-linenumber {
+    background: rgb(33 36 49 / 50%);
 }
 
- .cm-keyword {
-  color: #D46C6C;
+.cm-keyword {
+    color: #d46c6c;
 }
 
- .cm-operator {
-  color: #D46C6C;
+.cm-operator {
+    color: #d46c6c;
 }
 
- .cm-variable-2 {
-  color: #81C5DA;
+.cm-variable-2 {
+    color: #81c5da;
 }
 
-
- .cm-variable-3,
- .cm-type {
-  color: #f07178;
+.cm-variable-3,
+.cm-type {
+    color: #f07178;
 }
 
- .cm-builtin {
-  color: #FFCB6B;
+.cm-builtin {
+    color: #ffcb6b;
 }
 
- .cm-atom {
-  color: #A99BE2;
+.cm-atom {
+    color: #a99be2;
 }
 
- .cm-number {
-  color: #7CA4C0;
+.cm-number {
+    color: #7ca4c0;
 }
 
- .cm-def {
-  color: #F5DFA5;
+.cm-def {
+    color: #f5dfa5;
 }
 
- .cm-line .cm-def ~ .cm-def {
-  color: #81C5DA;
+.cm-line .cm-def ~ .cm-def {
+    color: #81c5da;
 }
 
- .cm-string {
-  color: #B2E4AE;
+.cm-string {
+    color: #b2e4ae;
 }
 
- .cm-string-2 {
-  color: #f07178;
+.cm-string-2 {
+    color: #f07178;
 }
 
- .cm-comment {
-  color: #3F445A;
+.cm-comment {
+    color: #3f445a;
 }
 
- .cm-variable {
-  color: #8E95B4;
+.cm-variable {
+    color: #8e95b4;
 }
 
- .cm-tag {
-  color: #FF5370;
+.cm-tag {
+    color: #ff5370;
 }
 
- .cm-meta {
-  color: #FFCB6B;
+.cm-meta {
+    color: #ffcb6b;
 }
 
- .cm-attribute {
-  color: #C792EA;
+.cm-attribute {
+    color: #c792ea;
 }
 
- .cm-property {
-  color: #81C5DA;
+.cm-property {
+    color: #81c5da;
 }
 
- .cm-qualifier {
-  color: #DECB6B;
+.cm-qualifier {
+    color: #decb6b;
 }
 
- .cm-variable-3,
- .cm-type {
-  color: #DECB6B;
+.cm-variable-3,
+.cm-type {
+    color: #decb6b;
 }
 
-
- .cm-error {
-  color: rgb(255 255 255 / 100%);
-  background-color: #FF5370;
+.cm-error {
+    color: rgb(255 255 255 / 100%);
+    background-color: #ff5370;
 }
 
- .cm-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
+.cm-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
 }

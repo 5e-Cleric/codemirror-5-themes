@@ -8,34 +8,89 @@
 
 */
 
-& { background: #f7f7f7; color: #3a3432; }
- div.cm-selected { background: #d6d5d4; }
+& {
+    background: #f7f7f7;
+    color: #3a3432;
+}
+div.cm-selected {
+    background: #d6d5d4;
+}
 
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #d6d5d4; }
- .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #d9d9d9; }
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: #d6d5d4;
+}
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: #d9d9d9;
+}
 
- .cm-gutters { background: #f7f7f7; border-right: 0; }
- .cm-gutterElement span { color: #db2d20; }
- 
- .cm-linenumber { color: #807d7c; }
+.cm-gutters {
+    background: #f7f7f7;
+    border-right: 0;
+}
+.cm-gutterElement span {
+    color: #db2d20;
+}
 
- .cm-cursor { border-left: 1px solid #5c5855; }
+.cm-linenumber {
+    color: #807d7c;
+}
 
- .cm-comment { color: #cdab53; }
- .cm-atom { color: #a16a94; }
- .cm-number { color: #a16a94; }
+.cm-cursor {
+    border-left: 1px solid #5c5855;
+}
 
- .cm-property,  .cm-attribute { color: #01a252; }
- .cm-keyword { color: #db2d20; }
- .cm-string { color: #fded02; }
+.cm-comment {
+    color: #cdab53;
+}
+.cm-atom {
+    color: #a16a94;
+}
+.cm-number {
+    color: #a16a94;
+}
 
- .cm-variable { color: #01a252; }
- .cm-variable-2 { color: #01a0e4; }
- .cm-def { color: #e8bbd0; }
- .cm-bracket { color: #3a3432; }
- .cm-tag { color: #db2d20; }
- .cm-link { color: #a16a94; }
- .cm-error { background: #db2d20; color: #5c5855; }
+.cm-property,
+.cm-attribute {
+    color: #01a252;
+}
+.cm-keyword {
+    color: #db2d20;
+}
+.cm-string {
+    color: #fded02;
+}
 
- .cm-activeLine{ background: #e8f2ff; }
- .cm-matchingbracket { text-decoration: underline; color: #a16a94 !important; }
+.cm-variable {
+    color: #01a252;
+}
+.cm-variable-2 {
+    color: #01a0e4;
+}
+.cm-def {
+    color: #e8bbd0;
+}
+.cm-bracket {
+    color: #3a3432;
+}
+.cm-tag {
+    color: #db2d20;
+}
+.cm-link {
+    color: #a16a94;
+}
+.cm-error {
+    background: #db2d20;
+    color: #5c5855;
+}
+
+.cm-activeLine {
+    background: #e8f2ff;
+}
+.cm-matchingbracket {
+    text-decoration: underline;
+    color: #a16a94 !important;
+}

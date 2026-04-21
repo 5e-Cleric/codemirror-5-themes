@@ -5,131 +5,129 @@
 */
 
 & {
-  background-color: #212121;
-  color: #EFF;
+    background-color: #212121;
+    color: #eff;
 }
 
- .cm-gutters {
-  background: #212121;
-  color: #545454;
-  border: none;
+.cm-gutters {
+    background: #212121;
+    color: #545454;
+    border: none;
 }
 
- .cm-gutterElement span,
-
- .cm-linenumber {
-  color: #545454;
+.cm-gutterElement span,
+.cm-linenumber {
+    color: #545454;
 }
 
- .cm-cursor {
-  border-left: 1px solid #FC0;
+.cm-cursor {
+    border-left: 1px solid #fc0;
 }
 
- div.cm-selected {
-  background: rgb(97 97 97 / 20%);
+div.cm-selected {
+    background: rgb(97 97 97 / 20%);
 }
 
 .cm-focused div.cm-selected {
-  background: rgb(97 97 97 / 20%);
+    background: rgb(97 97 97 / 20%);
 }
 
- .cm-line::selection,
- .cm-line>span::selection,
- .cm-line>span>span::selection {
-  background: rgb(128 203 196 / 20%);
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(128 203 196 / 20%);
 }
 
- .cm-line::selection,
- .cm-line>span::selection,
- .cm-line>span>span::selection {
-  background: rgb(128 203 196 / 20%);
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
+    background: rgb(128 203 196 / 20%);
 }
 
- .cm-activeLine{
-  background: rgb(0 0 0 / 50%);
+.cm-activeLine {
+    background: rgb(0 0 0 / 50%);
 }
 
- .cm-keyword {
-  color: #C792EA;
+.cm-keyword {
+    color: #c792ea;
 }
 
- .cm-operator {
-  color: #89DDFF;
+.cm-operator {
+    color: #89ddff;
 }
 
- .cm-variable-2 {
-  color: #EFF;
+.cm-variable-2 {
+    color: #eff;
 }
 
- .cm-variable-3,
- .cm-type {
-  color: #f07178;
+.cm-variable-3,
+.cm-type {
+    color: #f07178;
 }
 
- .cm-builtin {
-  color: #FFCB6B;
+.cm-builtin {
+    color: #ffcb6b;
 }
 
- .cm-atom {
-  color: #F78C6C;
+.cm-atom {
+    color: #f78c6c;
 }
 
- .cm-number {
-  color: #FF5370;
+.cm-number {
+    color: #ff5370;
 }
 
- .cm-def {
-  color: #82AAFF;
+.cm-def {
+    color: #82aaff;
 }
 
- .cm-string {
-  color: #C3E88D;
+.cm-string {
+    color: #c3e88d;
 }
 
- .cm-string-2 {
-  color: #f07178;
+.cm-string-2 {
+    color: #f07178;
 }
 
- .cm-comment {
-  color: #545454;
+.cm-comment {
+    color: #545454;
 }
 
- .cm-variable {
-  color: #f07178;
+.cm-variable {
+    color: #f07178;
 }
 
- .cm-tag {
-  color: #FF5370;
+.cm-tag {
+    color: #ff5370;
 }
 
- .cm-meta {
-  color: #FFCB6B;
+.cm-meta {
+    color: #ffcb6b;
 }
 
- .cm-attribute {
-  color: #C792EA;
+.cm-attribute {
+    color: #c792ea;
 }
 
- .cm-property {
-  color: #C792EA;
+.cm-property {
+    color: #c792ea;
 }
 
- .cm-qualifier {
-  color: #DECB6B;
+.cm-qualifier {
+    color: #decb6b;
 }
 
- .cm-variable-3,
- .cm-type {
-  color: #DECB6B;
+.cm-variable-3,
+.cm-type {
+    color: #decb6b;
 }
 
-
- .cm-error {
-  color: rgb(255 255 255 / 100%);
-  background-color: #FF5370;
+.cm-error {
+    color: rgb(255 255 255 / 100%);
+    background-color: #ff5370;
 }
 
- .cm-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
+.cm-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
 }

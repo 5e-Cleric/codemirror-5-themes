@@ -20,24 +20,68 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
- .cm-keyword { line-height: 1em; font-weight: bold; color: #5A5CAD; }
- .cm-atom { color: #6C8CD5; }
- .cm-number { color: #164; }
- .cm-def { text-decoration:underline; }
- .cm-variable { color: black; }
- .cm-variable-2 { color:black; }
- .cm-variable-3,  .cm-type { color: black; }
- .cm-property {}
- .cm-operator {}
- .cm-comment { color: #0080FF; font-style: italic; }
- .cm-string { color: red; }
- .cm-meta { color: yellow; }
- .cm-qualifier { color: grey; }
- .cm-builtin { color: #7EA656; }
- .cm-bracket { color: #cc7; }
- .cm-tag { color: #3F7F7F; }
- .cm-attribute { color: #7F007F; }
- .cm-error { color: #f00; }
+.cm-keyword {
+    line-height: 1em;
+    font-weight: bold;
+    color: #5a5cad;
+}
+.cm-atom {
+    color: #6c8cd5;
+}
+.cm-number {
+    color: #164;
+}
+.cm-def {
+    text-decoration: underline;
+}
+.cm-variable {
+    color: black;
+}
+.cm-variable-2 {
+    color: black;
+}
+.cm-variable-3,
+.cm-type {
+    color: black;
+}
+.cm-property {
+}
+.cm-operator {
+}
+.cm-comment {
+    color: #0080ff;
+    font-style: italic;
+}
+.cm-string {
+    color: red;
+}
+.cm-meta {
+    color: yellow;
+}
+.cm-qualifier {
+    color: grey;
+}
+.cm-builtin {
+    color: #7ea656;
+}
+.cm-bracket {
+    color: #cc7;
+}
+.cm-tag {
+    color: #3f7f7f;
+}
+.cm-attribute {
+    color: #7f007f;
+}
+.cm-error {
+    color: #f00;
+}
 
- .cm-activeLine{ background: #e8f2ff; }
- .cm-matchingbracket { outline:1px solid grey;color:black !important;background:yellow; }
+.cm-activeLine {
+    background: #e8f2ff;
+}
+.cm-matchingbracket {
+    outline: 1px solid grey;
+    color: black !important;
+    background: yellow;
+}
