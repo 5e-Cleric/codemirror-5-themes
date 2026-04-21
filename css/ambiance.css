@@ -89,7 +89,7 @@
 .cm-selectionBackground  {
     background: rgb(255 255 255 / 15%) !important;
 }
-.cm-focused .cm-selectionBackground  {
+&.cm-focused .cm-selectionBackground  {
     background: rgb(255 255 255 / 10%) !important;
 }
 

@@ -20,7 +20,7 @@
     background: rgb(99 123 156 / 10%);
 }
 
-.cm-selectionBackground, .cm-focused .cm-selectionBackground {
+.cm-selectionBackground, &.cm-focused .cm-selectionBackground {
     background: #fff !important;
 }
 

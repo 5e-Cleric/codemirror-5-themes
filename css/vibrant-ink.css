@@ -8,7 +8,7 @@
 .cm-selectionBackground  {
     background: #35493c !important;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: rgb(53 73 60 / 99%) !important;
 }
 

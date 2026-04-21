@@ -94,6 +94,6 @@
 .cm-selectionBackground  {
     background: #545454 !important;
 }
-.cm-focused .cm-selectionBackground  {
+&.cm-focused .cm-selectionBackground  {
     background: #4f4f4f !important;
 }

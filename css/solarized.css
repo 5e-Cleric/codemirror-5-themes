@@ -181,7 +181,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 .cm-selectionBackground  {
     background: #eee8d5 !important;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: #eee8d5 !important;
 }
 

@@ -6,7 +6,7 @@
     font-size: 1em;
 }
 
-.cm-focused .cm-matchhighlight {
+&.cm-focused .cm-matchhighlight {
     text-decoration: underline;
     text-decoration-color: #0f0;
     text-decoration-style: wavy;
@@ -112,7 +112,7 @@
     color: #f00;
 }
 
-.cm-selectionBackground, .cm-focused .cm-selectionBackground {
+.cm-selectionBackground, &.cm-focused .cm-selectionBackground {
     background-color: rgb(255 0 0 / 25%) !important;
 }
 

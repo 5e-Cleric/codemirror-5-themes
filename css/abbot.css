@@ -116,7 +116,7 @@
 
 /* Roughly equivalent to Vim's Visual group. */
 .cm-selectionBackground ,
-.cm-focused .cm-selectionBackground  {
+&.cm-focused .cm-selectionBackground  {
     background: #273900  !important/* dark_olive */;
 }
 

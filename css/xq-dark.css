@@ -28,7 +28,7 @@ THE SOFTWARE.
 .cm-selectionBackground {
     background: #27007a !important;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: rgb(39 0 122 / 99%) !important;
 }
 .cm-gutters {

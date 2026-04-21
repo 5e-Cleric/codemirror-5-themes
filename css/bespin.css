@@ -14,7 +14,7 @@
     color: #9d9b97;
 }
 .cm-selectionBackground,
-.cm-focused .cm-selectionBackground {
+&.cm-focused .cm-selectionBackground {
     background: #59554f !important;
 }
 .cm-gutters {

@@ -13,7 +13,7 @@
 .cm-selectionBackground  {
     background: #cfc !important;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: #cfc !important;
 }
 

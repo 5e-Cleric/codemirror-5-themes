@@ -14,7 +14,7 @@ Ported to CodeMirror by Peter Kroon
 .cm-selectionBackground  {
     background: #45443b !important;
 } /* 33322B */
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: rgb(69 68 59 / 99%) !important;
 }
 .cm-cursor {

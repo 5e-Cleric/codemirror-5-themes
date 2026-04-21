@@ -24,7 +24,7 @@
 .cm-selectionBackground  {
     background: #243443 !important;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: #243443 !important;
 }
 .cm-comment {

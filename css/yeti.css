@@ -24,7 +24,7 @@
 .cm-linenumber {
     color: #adaba6;
 }
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: #dcd8d2 !important;
 }
 .cm-comment {

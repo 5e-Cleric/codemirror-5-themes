@@ -16,7 +16,7 @@
     background: #b9b6b0 !important;
 }
 
-.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground{
     background: #b9b6b0 !important;
 }
 .cm-gutters {

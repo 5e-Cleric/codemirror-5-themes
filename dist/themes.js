@@ -6,10 +6,10 @@ const themes = {
     "background": "#f7f7f7",
     "color": "#3a3432"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#d6d5d4"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#d9d9d9"
   },
   ".cm-gutters": {
@@ -78,10 +78,10 @@ const themes = {
     "background": "#090300",
     "color": "#d6d5d4"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#3a3432"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(58 52 50 / 99%)"
   },
   ".cm-gutters": {
@@ -184,11 +184,8 @@ const themes = {
   ".cm-secondarycursor": {
     "borderColor": "#00ff7f "
   },
-  ".cm-selected,\n.cm-focused .cm-selected": {
-    "background": "#273900 "
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
-    "background": "#273900 "
+  ".cm-selectionBackground ,\n&.cm-focused .cm-selectionBackground": {
+    "background": "#273900"
   },
   ".cm-tab": {
     "color": "#00ff7f "
@@ -290,10 +287,10 @@ const themes = {
     "background": "#0f0f0f",
     "color": "#defdef"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#515151"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(56 56 56 / 99%)"
   },
   ".cm-gutters": {
@@ -461,13 +458,10 @@ const themes = {
   ".cm-nonmatchingbracket": {
     "color": "#f22"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(255 255 255 / 15%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(255 255 255 / 10%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(255 255 255 / 10%)"
   },
   "&": {
@@ -504,10 +498,10 @@ const themes = {
     "background": "#0a0e14",
     "color": "#b3b1ad"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#273747"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(39 55 71 / 9900%)"
   },
   ".cm-gutters": {
@@ -605,10 +599,10 @@ const themes = {
     "background": "#1f2430",
     "color": "#cbccc6"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#34455a"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(25 30 42 / 9900%)"
   },
   ".cm-gutters": {
@@ -710,10 +704,10 @@ const themes = {
     "background": "#151515",
     "color": "#e0e0e0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#303030"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(48 48 48 / 99%)"
   },
   ".cm-gutters": {
@@ -788,10 +782,10 @@ const themes = {
     "background": "#f5f5f5",
     "color": "#202020"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#e0e0e0"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#e0e0e0"
   },
   ".cm-gutters": {
@@ -860,7 +854,7 @@ const themes = {
     "background": "#28211c",
     "color": "#9d9b97"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground,\n&.cm-focused .cm-selectionBackground": {
     "background": "#59554f"
   },
   ".cm-gutters": {
@@ -926,10 +920,10 @@ const themes = {
     "background": "#0c1021",
     "color": "#f8f8f8"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#253b76"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(37 59 118 / 99%)"
   },
   ".cm-gutters": {
@@ -1010,10 +1004,10 @@ const themes = {
     "background": "#002240",
     "color": "white"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#b36539"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(179 101 57 / 99%)"
   },
   ".cm-gutters": {
@@ -1145,7 +1139,7 @@ const themes = {
   ".cm-error": {
     "color": "#f00"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground ,\n&.cm-focused .cm-selectionBackground": {
     "background": "#333d53"
   },
   ".cm-compilation": {
@@ -1266,7 +1260,7 @@ const themes = {
     "color": "#ffef28",
     "fontWeight": "bold"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground,\n&.cm-focused .cm-selectionBackground": {
     "background": "#214283"
   },
   ".cm-hints.darcula": {
@@ -1294,10 +1288,10 @@ const themes = {
   ".cm-linenumber": {
     "color": "#6d8a88"
   },
-  ".cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(255 255 255 / 10%)"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(255 255 255 / 10%)"
   },
   ".cm-comment": {
@@ -1361,7 +1355,7 @@ const themes = {
     "background": "#2a2734",
     "color": "#6c6783"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground ,&.cm-focused .cm-selectionBackground": {
     "background": "#545167"
   },
   ".cm-gutters": {
@@ -1427,7 +1421,7 @@ const themes = {
     "background": "#faf8f5",
     "color": "#b29762"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground&.cm-focused .cm-selectionBackground": {
     "background": "#e3dcce"
   },
   ".cm-gutters": {
@@ -1604,10 +1598,10 @@ const themes = {
     "background": "#002240",
     "color": "white"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#b36539"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(179 101 57 / 99%)"
   },
   ".cm-gutters": {
@@ -1715,7 +1709,7 @@ const themes = {
   ".cm-animate-fat-cursor": {
     "backgroundColor": "#8e8d8875"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground ,&.cm-focused .cm-selectionBackground": {
     "background": "#928374"
   },
   ".cm-meta": {
@@ -1782,7 +1776,7 @@ const themes = {
     "background": "#322931",
     "color": "#d5d3d5"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#433b42"
   },
   ".cm-gutters": {
@@ -1921,7 +1915,7 @@ const themes = {
   ".cm-cursor": {
     "borderLeft": "1px solid white"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "color": "#fff",
     "background": "#037"
   },
@@ -2031,7 +2025,7 @@ const themes = {
     "background": "#000",
     "color": "#e0e0e0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#404040"
   },
   ".cm-gutters": {
@@ -2124,10 +2118,10 @@ const themes = {
     "color": "#ebefe7",
     "textShadow": "0 -1px 1px #262626"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#45443b"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(69 68 59 / 99%)"
   },
   ".cm-cursor": {
@@ -2233,7 +2227,7 @@ const themes = {
     "lineHeight": "1.2em",
     "fontSize": "1em"
   },
-  ".cm-focused .cm-matchhighlight": {
+  "&.cm-focused .cm-matchhighlight": {
     "textDecoration": "underline",
     "textDecorationColor": "#0f0",
     "textDecorationStyle": "wavy"
@@ -2330,7 +2324,7 @@ const themes = {
   ".cm-error": {
     "color": "#f00"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "backgroundColor": "rgb(255 0 0 / 25%)"
   },
   ".cm-compilation": {
@@ -2399,10 +2393,10 @@ const themes = {
   ".cm-linenumber": {
     "color": "#f8f8f2"
   },
-  ".cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#243443"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#243443"
   },
   ".cm-comment": {
@@ -2477,13 +2471,10 @@ const themes = {
   ".cm-cursor": {
     "borderLeft": "1px solid #fc0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(97 97 97 / 20%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(97 97 97 / 20%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
@@ -2571,13 +2562,10 @@ const themes = {
   ".cm-animate-fat-cursor": {
     "backgroundColor": "#a2a8a175"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(113 124 180 / 20%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(113 124 180 / 20%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
@@ -2665,13 +2653,10 @@ const themes = {
   ".cm-animate-fat-cursor": {
     "backgroundColor": "#607c8b80"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(113 124 180 / 20%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(113 124 180 / 20%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
@@ -2759,13 +2744,10 @@ const themes = {
   ".cm-animate-fat-cursor": {
     "backgroundColor": "#5d6d5c80"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(128 203 196 / 20%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
@@ -2836,10 +2818,10 @@ const themes = {
     "background": "#2c2c2c",
     "color": "#ffffec"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#716c62"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(113 108 98 / 99%)"
   },
   ".cm-gutters": {
@@ -2916,10 +2898,10 @@ const themes = {
   "&": {
     "backgroundImage": "url(\"data:image/png;base64,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\")"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#cfc"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#cfc"
   },
   ".cm-gutters": {
@@ -3017,10 +2999,10 @@ const themes = {
     "background": "#0f192a",
     "color": "#d1edff"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#314d67"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(49 77 103 / 99%)"
   },
   ".cm-gutters": {
@@ -3086,10 +3068,10 @@ const themes = {
     "background": "#272822",
     "color": "#f8f8f2"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#49483e"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(73 72 62 / 99%)"
   },
   ".cm-gutters": {
@@ -3191,13 +3173,10 @@ const themes = {
   ".cm-cursor": {
     "borderLeft": "1px solid #fc0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(128 203 196 / 20%)"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "#212431"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#212431"
   },
   ".cm-activeline-background,\n.cm-activeline-gutter .cm-linenumber": {
@@ -3359,10 +3338,10 @@ const themes = {
     "background": "#0a001f",
     "color": "#f8f8f8"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#447"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(68 68 119 / 99%)"
   },
   ".cm-gutters": {
@@ -3427,10 +3406,10 @@ const themes = {
     "background": "#2e3440",
     "color": "#d8dee9"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#434c5e"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#3b4252"
   },
   ".cm-gutters": {
@@ -3520,10 +3499,10 @@ const themes = {
     "background": "#304148",
     "color": "#f8f8f2"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(101 115 126 / 33%)"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(101 115 126 / 33%)"
   },
   ".cm-gutters": {
@@ -3609,7 +3588,7 @@ const themes = {
   ".cm-activeLine": {
     "background": "rgb(99 123 156 / 10%)"
   },
-  ".cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#fff"
   },
   ".cm-comment": {
@@ -3680,10 +3659,10 @@ const themes = {
     "background": "#2f1e2e",
     "color": "#b9b6b0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#41323f"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(65 50 63 / 99%)"
   },
   ".cm-gutters": {
@@ -3752,10 +3731,10 @@ const themes = {
     "background": "#e7e9db",
     "color": "#41323f"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#b9b6b0"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#b9b6b0"
   },
   ".cm-gutters": {
@@ -3825,10 +3804,10 @@ const themes = {
     "color": "#8f938f",
     "lineHeight": "1.5"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(221 240 255 / 20%)"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(221 240 255 / 20%)"
   },
   ".cm-gutters": {
@@ -3908,7 +3887,7 @@ const themes = {
     "background": "#2b2b2b",
     "color": "#f4f1ed"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#272935"
   },
   ".cm-gutters": {
@@ -3974,10 +3953,10 @@ const themes = {
     "background": "#112435",
     "color": "white"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#38566f"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(56 86 111 / 99%)"
   },
   ".cm-gutters": {
@@ -4055,10 +4034,7 @@ const themes = {
   ".cm-linenumber": {
     "color": "#6d8a88"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "rgb(255 255 255 / 10%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "rgb(255 255 255 / 10%)"
   },
   ".cm-comment": {
@@ -4122,10 +4098,10 @@ const themes = {
     "background": "#2a2a2e",
     "color": "#b1b1b3"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#353b48"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#353b48"
   },
   ".cm-gutters": {
@@ -4367,13 +4343,10 @@ const themes = {
     "color": "#586e75",
     "borderBottom": "1px dotted #dc322f"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#eee8d5"
   },
-  "& ::selection": {
-    "background": "rgb(7 54 66 / 99%)"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#eee8d5"
   },
   ".cm-gutters": {
@@ -4439,7 +4412,7 @@ const themes = {
     "borderRight": "3px solid #ffee62",
     "backgroundColor": "#fff"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#add6ff"
   }
 }, { dark: false }),
@@ -4448,10 +4421,10 @@ const themes = {
     "background": "#000",
     "color": "#0f0"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#2d2d2d"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(45 45 45 / 99%)"
   },
   ".cm-gutters": {
@@ -4531,7 +4504,7 @@ const themes = {
     "background": "#000",
     "color": "#eaeaea"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#424242"
   },
   ".cm-gutters": {
@@ -4600,10 +4573,10 @@ const themes = {
     "background": "#000",
     "color": "#ccc"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#2d2d2d"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(45 45 45 / 99%)"
   },
   ".cm-gutters": {
@@ -4796,10 +4769,10 @@ const themes = {
     "background": "#141414",
     "color": "#f7f7f7"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#323232"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(50 50 50 / 99%)"
   },
   ".cm-gutters": {
@@ -4888,10 +4861,10 @@ const themes = {
     "background": "black",
     "color": "white"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#35493c"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(53 73 60 / 99%)"
   },
   ".cm-gutters": {
@@ -4975,10 +4948,10 @@ const themes = {
     "background": "#0a001f",
     "color": "#f8f8f8"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#27007a"
   },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "rgb(39 0 122 / 99%)"
   },
   ".cm-gutters": {
@@ -5133,10 +5106,7 @@ const themes = {
   ".cm-linenumber": {
     "color": "#adaba6"
   },
-  ".cm-focused div.cm-selected": {
-    "background": "#dcd8d2"
-  },
-  ".cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#dcd8d2"
   },
   ".cm-comment": {
@@ -5199,10 +5169,10 @@ const themes = {
     "background": "#1c1c1c",
     "color": "#d4d4d4"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "rgb(252 69 133 / 47.8%)"
   },
-  ".cm-selectedtext,\n.cm-selected,\n.cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection,\n.cm-line::selection,\n.cm-line > span::selection,\n.cm-line > span > span::selection": {
+  ".cm-selectionBackground,\n&.cm-focused .cm-selectionBackground": {
     "background": "rgb(252 67 132 / 47%)"
   },
   "& pre": {
@@ -5226,7 +5196,7 @@ const themes = {
     "background": "rgb(243 155 53 / 30%)",
     "outline": "1px solid #f39b35"
   },
-  ".cm-searching.cm-selectedtext": {
+  ".cm-searching.cm-selectionBackground": {
     "background": "rgb(243 155 53 / 70%)",
     "color": "white"
   },
@@ -5406,10 +5376,10 @@ const themes = {
   ".cm-activeLine": {
     "background": "#000"
   },
-  "div.cm-selected": {
+  ".cm-selectionBackground": {
     "background": "#545454"
   },
-  ".cm-focused div.cm-selected": {
+  "&.cm-focused .cm-selectionBackground": {
     "background": "#4f4f4f"
   }
 }, { dark: true })

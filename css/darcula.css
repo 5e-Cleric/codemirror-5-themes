@@ -122,7 +122,7 @@
 }
 
 .cm-selectionBackground,
-.cm-focused .cm-selectionBackground  {
+&.cm-focused .cm-selectionBackground  {
     background: #214283 !important;
 }
 
