@@ -1,9 +1,14 @@
 {
+	"name": "codemirror-5-themes",
+	"version": "0.1.0",
 	"type": "module",
 	"main": "./dist/themes.js",
 	"exports": {
 		".": "./dist/themes.js"
 	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "node build.js"
 	},
