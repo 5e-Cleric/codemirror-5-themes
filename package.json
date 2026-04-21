@@ -1,7 +1,17 @@
 {
-  "type": "module",
-  "dependencies": {
-    "@codemirror/view": "^6.41.1",
-    "postcss": "^8.5.10"
-  }
+	"type": "module",
+	"main": "./dist/themes.js",
+	"exports": {
+		".": "./dist/themes.js"
+	},
+	"scripts": {
+		"build": "node build.js"
+	},
+	"dependencies": {
+		"@codemirror/view": "^6.41.1"
+	},
+	"devDependencies": {
+		"postcss": "^8.5.10",
+		"vite": "^8.0.9"
+	}
 }
