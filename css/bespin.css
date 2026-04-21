@@ -13,7 +13,8 @@
     background: #28211c;
     color: #9d9b97;
 }
-div.cm-selected {
+.cm-selectionBackground,
+.cm-focused .cm-selectionBackground {
     background: #59554f !important;
 }
 .cm-gutters {

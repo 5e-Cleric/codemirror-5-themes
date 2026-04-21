@@ -9,7 +9,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
     background: #faf8f5;
     color: #b29762;
 }
-div.cm-selected {
+.cm-selectionBackground.cm-focused .cm-selectionBackground  {
     background: #e3dcce !important;
 }
 .cm-gutters {

@@ -112,8 +112,8 @@
     color: #f00;
 }
 
-div.cm-selected {
-    background-color: rgb(255 0 0 / 25%);
+.cm-selectionBackground, .cm-focused .cm-selectionBackground {
+    background-color: rgb(255 0 0 / 25%) !important;
 }
 
 .cm-compilation {

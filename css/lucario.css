@@ -21,18 +21,11 @@
 .cm-linenumber {
     color: #f8f8f2;
 }
-.cm-selected {
-    background: #243443;
+.cm-selectionBackground  {
+    background: #243443 !important;
 }
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #243443;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #243443;
+.cm-focused .cm-selectionBackground{
+    background: #243443 !important;
 }
 .cm-comment {
     color: #5c98cd;

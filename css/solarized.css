@@ -178,31 +178,11 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
     color: #586e75;
     border-bottom: 1px dotted #dc322f;
 }
-
-div.cm-selected {
-    background: #073642;
+.cm-selectionBackground  {
+    background: #eee8d5 !important;
 }
-& ::selection {
-    background: rgb(7 54 66 / 99%);
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(7 54 66 / 99%);
-}
-
-div.cm-selected {
-    background: #eee8d5;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #eee8d5;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #eee8d5;
+.cm-focused .cm-selectionBackground{
+    background: #eee8d5 !important;
 }
 
 /* Editor styling */

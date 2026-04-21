@@ -91,9 +91,9 @@
 .cm-activeLine {
     background: #000;
 }
-div.cm-selected {
-    background: #545454;
+.cm-selectionBackground  {
+    background: #545454 !important;
 }
-.cm-focused div.cm-selected {
-    background: #4f4f4f;
+.cm-focused .cm-selectionBackground  {
+    background: #4f4f4f !important;
 }

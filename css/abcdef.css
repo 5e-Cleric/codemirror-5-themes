@@ -3,18 +3,11 @@
     background: #0f0f0f;
     color: #defdef;
 }
-div.cm-selected {
-    background: #515151;
+.cm-selectionBackground  {
+    background: #515151 !important;
 }
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(56 56 56 / 99%);
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(56 56 56 / 99%);
+.cm-focused .cm-selectionBackground{
+    background: rgb(56 56 56 / 99%) !important;
 }
 .cm-gutters {
     background: #555;

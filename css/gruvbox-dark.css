@@ -29,8 +29,8 @@
 .cm-animate-fat-cursor {
     background-color: #8e8d8875 !important;
 }
-div.cm-selected {
-    background: #928374;
+.cm-selectionBackground ,.cm-focused .cm-selectionBackground { 
+    background: #928374 !important;
 }
 .cm-meta {
     color: #83a598;

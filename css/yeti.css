@@ -24,18 +24,8 @@
 .cm-linenumber {
     color: #adaba6;
 }
-.cm-focused div.cm-selected {
-    background: #dcd8d2;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #dcd8d2;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #dcd8d2;
+.cm-focused .cm-selectionBackground{
+    background: #dcd8d2 !important;
 }
 .cm-comment {
     color: #d4c8be;

@@ -10,18 +10,11 @@
     color: #999;
     background-color: #fff;
 }
-div.cm-selected {
-    background: #cfc;
+.cm-selectionBackground  {
+    background: #cfc !important;
 }
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #cfc;
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #cfc;
+.cm-focused .cm-selectionBackground{
+    background: #cfc !important;
 }
 
 .cm-gutters {

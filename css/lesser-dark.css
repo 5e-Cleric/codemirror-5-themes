@@ -11,18 +11,11 @@ Ported to CodeMirror by Peter Kroon
     color: #ebefe7;
     text-shadow: 0 -1px 1px #262626;
 }
-div.cm-selected {
-    background: #45443b;
+.cm-selectionBackground  {
+    background: #45443b !important;
 } /* 33322B */
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(69 68 59 / 99%);
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(69 68 59 / 99%);
+.cm-focused .cm-selectionBackground{
+    background: rgb(69 68 59 / 99%) !important;
 }
 .cm-cursor {
     border-left: 1px solid white;

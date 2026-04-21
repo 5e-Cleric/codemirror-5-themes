@@ -90,9 +90,9 @@ ICEcoder default theme by Matt Pass, used in code editor available at https://ic
 .cm-cursor {
     border-left: 1px solid white;
 }
-div.cm-selected {
-    color: #fff;
-    background: #037;
+.cm-selectionBackground, .cm-focused .cm-selectionBackground  {
+    color: #fff !important;
+    background: #037 !important;
 }
 .cm-gutters {
     background: #1d1d1b;

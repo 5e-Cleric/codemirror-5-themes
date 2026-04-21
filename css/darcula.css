@@ -121,8 +121,9 @@
     font-weight: bold;
 }
 
-div.cm-selected {
-    background: #214283;
+.cm-selectionBackground,
+.cm-focused .cm-selectionBackground  {
+    background: #214283 !important;
 }
 
 .cm-hints.darcula {

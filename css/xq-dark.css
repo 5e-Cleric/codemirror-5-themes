@@ -25,18 +25,11 @@ THE SOFTWARE.
     background: #0a001f;
     color: #f8f8f8;
 }
-div.cm-selected {
-    background: #27007a;
+.cm-selectionBackground {
+    background: #27007a !important;
 }
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(39 0 122 / 99%);
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(39 0 122 / 99%);
+.cm-focused .cm-selectionBackground{
+    background: rgb(39 0 122 / 99%) !important;
 }
 .cm-gutters {
     background: #0a001f;

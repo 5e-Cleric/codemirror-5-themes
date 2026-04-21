@@ -75,8 +75,9 @@
     color: #f00;
 }
 
-div.cm-selected {
-    background: #333d53;
+.cm-selectionBackground ,
+.cm-focused .cm-selectionBackground {
+    background: #333d53 !important;
 }
 
 .cm-compilation {

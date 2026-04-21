@@ -38,6 +38,6 @@
     border-right: 3px solid #ffee62;
     background-color: #fff;
 }
-div.cm-selected {
-    background: #add6ff;
+.cm-selectionBackground, .cm-focused .cm-selectionBackground  {
+    background: #add6ff !important;
 }

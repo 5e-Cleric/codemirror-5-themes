@@ -115,21 +115,9 @@
 }
 
 /* Roughly equivalent to Vim's Visual group. */
-.cm-selected,
-.cm-focused .cm-selected {
-    background: #273900 /* dark_olive */;
-}
-
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #273900 /* dark_olive */;
-}
-
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #273900 /* dark_olive */;
+.cm-selectionBackground ,
+.cm-focused .cm-selectionBackground  {
+    background: #273900  !important/* dark_olive */;
 }
 
 /* Roughly equivalent to Vim's SpecialKey group. */

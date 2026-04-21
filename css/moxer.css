@@ -26,24 +26,12 @@
     border-left: 1px solid #fc0;
 }
 
-div.cm-selected {
-    background: rgb(128 203 196 / 20%);
+.cm-selectionBackground  {
+    background: rgb(128 203 196 / 20%) !important;
 }
 
-.cm-focused div.cm-selected {
-    background: #212431;
-}
-
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #212431;
-}
-
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: #212431;
+.cm-focused .cm-selectionBackground{
+    background: #212431 !important;
 }
 
 .cm-activeline-background,

@@ -12,18 +12,12 @@
     background: #1c1c1c;
     color: #d4d4d4;
 } /*  */
-div.cm-selected {
+.cm-selectionBackground  {
     background: rgb(252 69 133 / 47.8%);
 } /*  */
-.cm-selectedtext,
-.cm-selected,
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection,
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(252 67 132 / 47%);
+.cm-selectionBackground,
+.cm-focused .cm-selectionBackground{
+    background: rgb(252 67 132 / 47%) !important;
 }
 
 & pre {
@@ -51,7 +45,7 @@ div.cm-selected {
     background: rgb(243 155 53 / 30%) !important;
     outline: 1px solid #f39b35;
 }
-.cm-searching.cm-selectedtext {
+.cm-searching.cm-selectionBackground {
     background: rgb(243 155 53 / 70%) !important;
     color: white;
 }

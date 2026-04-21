@@ -13,18 +13,11 @@
     color: #8f938f;
     line-height: 1.5;
 }
-div.cm-selected {
-    background: rgb(221 240 255 / 20%);
+.cm-selectionBackground  {
+    background: rgb(221 240 255 / 20%) !important;
 }
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(221 240 255 / 20%);
-}
-.cm-line::selection,
-.cm-line > span::selection,
-.cm-line > span > span::selection {
-    background: rgb(221 240 255 / 20%);
+.cm-focused .cm-selectionBackground{
+    background: rgb(221 240 255 / 20%) !important;
 }
 
 .cm-gutters {
