@@ -2,7 +2,7 @@ import { EditorView } from "@codemirror/view";
 
 const themes = {
   abbot: EditorView.theme({
-  ".cm-editor": {
+  "&": {
     "background": "#231c14 ",
     "color": "#d8ff84 "
   },
