@@ -17,7 +17,7 @@ export default EditorView.theme({
     "WebkitTextStrokeWidth": "0.1px",
     "WebkitTextStrokeColor": "#000000"
   },
-  ".CodeMirror-scroll": {
+  ".cm-scroll": {
     "borderRight": "1px solid #555",
     "background": "#ccc",
     "backgroundColor": "#1F5763",
@@ -31,7 +31,7 @@ export default EditorView.theme({
     "WebkitTextStrokeWidth": "0.1px",
     "WebkitTextStrokeColor": "#000000"
   },
-  ".CodeMirror-gutters": {
+  ".cm-gutters": {
     "borderRight": "1px solid #555",
     "background": "#555",
     "backgroundColor": "var(--bg)",
@@ -39,14 +39,14 @@ export default EditorView.theme({
     "borderLeft": "1px solid #555",
     "transition": "background 0.1s"
   },
-  ".CodeMirror-gutter": {
+  ".cm-gutter": {
     "backgroundColor": "var(--bg)",
     "cursor": "pointer",
     "borderLeft": "1px solid #555",
     "transition": "background 0.1s",
     "background": "#555"
   },
-  "&.CodeMirror-foldgutter": {
+  "&.cm-foldgutter": {
     "cursor": "pointer",
     "borderLeft": "1px solid #555",
     "transition": "background 0.1s",
@@ -55,7 +55,7 @@ export default EditorView.theme({
   "&:hover": {
     "background": "#555"
   },
-  ".CodeMirror-lines": {
+  ".cm-lines": {
     "backgroundColor": "#1F5763",
     "color": "#b5858d",
     "borderLeft": "1px solid #E0E2E4",
@@ -66,11 +66,11 @@ export default EditorView.theme({
     "WebkitTextStrokeWidth": "0.1px",
     "WebkitTextStrokeColor": "#000000"
   },
-  ".CodeMirror-linenumber.CodeMirror-gutter-elt": {
+  ".cm-linenumber.cm-gutter-elt": {
     "backgroundColor": "var(--bg)",
     "color": "#81969A"
   },
-  ".CodeMirror-cursor": {
+  ".cm-cursor": {
     "borderLeft": "1px solid #E0E2E4"
   },
   ".pageLine": {
@@ -78,7 +78,7 @@ export default EditorView.theme({
     "background": "#000000",
     "borderBottom": "1px solid #FFFFFF"
   },
-  ".CodeMirror-code .CodeMirror-line": {
+  ".cm-code .cm-line": {
     "fontStyle": "italic",
     "color": "#b5858d",
     "backgroundColor": "#1F5763",
@@ -149,7 +149,7 @@ export default EditorView.theme({
   ".cm-error": {
     "color": "#C50202"
   },
-  ".CodeMirror-foldmarker": {
+  ".cm-gutterElement span": {
     "color": "#F0FF00"
   },
   ".cm-builtin": {
