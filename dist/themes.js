@@ -148,7 +148,7 @@ const themes = {
   }
 }, { dark: true }),
   cobalt: EditorView.theme({
-  ".cm-editor": {
+  "&": {
     "background": "#002240",
     "color": "white"
   },

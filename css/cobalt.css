@@ -1,5 +1,5 @@
 /* mode: dark */
-.cm-editor {
+& {
 	background: #002240;
 	color: white;
 }

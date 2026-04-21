@@ -45,7 +45,7 @@
 /* Style the UI: */
 
 /* Equivalent to Vim's Normal group. */
-.cm-editor {
+& {
 	background: #231c14 /* bistre */;
 	color: #d8ff84 /* pastel_chartreuse */;
 }
