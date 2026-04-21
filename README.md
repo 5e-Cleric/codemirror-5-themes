@@ -45,6 +45,10 @@ Read the [CodeMirror documentation](https://codemirror.net/6/examples/styling/) 
 
 ### Available Themes
 
+<div style="display: flex; gap: 40px;">
+
+<div>
+
 - 3024-day
 - 3024-night
 - abbott
@@ -78,6 +82,11 @@ Read the [CodeMirror documentation](https://codemirror.net/6/examples/styling/) 
 - material-darker
 - material-ocean
 - material-palenight
+
+</div>
+
+<div>
+
 - material
 - mbo
 - mdn-like
@@ -110,6 +119,10 @@ Read the [CodeMirror documentation](https://codemirror.net/6/examples/styling/) 
 - yeti
 - yonce
 - zenburn
+
+</div>
+
+</div>
 
 ## License
 
