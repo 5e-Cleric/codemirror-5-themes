@@ -1,0 +1,37 @@
+& {
+  background: #f8f9fa;
+}
+
+ .cm-header,
+ .cm-def {
+  color: #1ba2f0;
+}
+
+ .cm-comment {
+  color: #009e9d;
+}
+
+ .cm-quote,
+ .cm-link,
+ .cm-strong,
+ .cm-attribute {
+  color: #fd7741;
+}
+
+ .cm-url,
+ .cm-keyword,
+ .cm-builtin {
+  color: #bb51b8;
+}
+
+ .cm-hr {
+  color: #909090;
+}
+
+ .cm-tag {
+  color: #107000;
+}
+
+ .cm-variable-2 {
+  color: #0050a0;
+}

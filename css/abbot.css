@@ -55,16 +55,17 @@
 	background: #231c14 /* bistre */;
 	border: none;
 }
+
 .cm-linenumber {
 	color: #fbec5d /* lemon_meringue */;
 }
 
-.cm-guttermarker {
+.cm-gutterElement span {
 	color: #f63f05 /* cinnabar */;
 }
 
 /* Roughly equivalent to Vim's FoldColumn group. */
-.cm-guttermarker-subtle {
+.cm-gutterElement span-subtle {
 	color: #fbb32f /* marigold */;
 }
 
@@ -90,8 +91,9 @@
    * under the cursor, so we can't use a reverse video effect for the cursor.
    * Instead, make it semitransparent.
    */
-	background: rgba(160, 234, 0, 0.5) /* chartreuse */;
+	background: rgb(160 234 0 / 50%) /* chartreuse */;
 }
+
 .cm-fat-cursor .cm-cursors {
 	/*
    * Boost the z-index so the fat cursor shows up on top of text and
@@ -117,14 +119,16 @@
 .cm-focused .cm-selected {
 	background: #273900 /* dark_olive */;
 }
+
 .cm-line::selection,
 .cm-line > span::selection,
 .cm-line > span > span::selection {
 	background: #273900 /* dark_olive */;
 }
-.cm-line::-moz-selection,
-.cm-line > span::-moz-selection,
-.cm-line > span > span::-moz-selection {
+
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection {
 	background: #273900 /* dark_olive */;
 }
 

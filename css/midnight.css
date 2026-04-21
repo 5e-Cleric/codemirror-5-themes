@@ -1,0 +1,39 @@
+/* Based on the theme at http://bonsaiden.github.com/JavaScript-Garden */
+
+/* <!--activeline--> */
+ .cm-activeLine{ background: #253540; }
+
+& {
+    background: #0F192A;
+    color: #D1EDFF;
+}
+
+ div.cm-selected { background: #314D67; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(49 77 103 / 99%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(49 77 103 / 99%); }
+ .cm-gutters { background: #0F192A; border-right: 1px solid; }
+ .cm-gutterElement span { color: white; }
+ 
+ .cm-linenumber { color: #D0D0D0; }
+ .cm-cursor { border-left: 1px solid #F8F8F0; }
+
+ .cm-comment { color: #428BDD; }
+ .cm-atom { color: #AE81FF; }
+ .cm-number { color: #D1EDFF; }
+
+ .cm-property,  .cm-attribute { color: #A6E22E; }
+ .cm-keyword { color: #E83737; }
+ .cm-string { color: #1DC116; }
+
+ .cm-variable { color: #FFAA3E; }
+ .cm-variable-2 { color: #FFAA3E; }
+ .cm-def { color: #4DD; }
+ .cm-bracket { color: #D1EDFF; }
+ .cm-tag { color: #449; }
+ .cm-link { color: #AE81FF; }
+ .cm-error { background: #F92672; color: #F8F8F0; }
+
+ .cm-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}

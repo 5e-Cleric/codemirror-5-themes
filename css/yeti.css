@@ -1,0 +1,44 @@
+/*
+
+    Name:       yeti
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original yeti color scheme by Jesse Weed (https://github.com/jesseweed/yeti-syntax)
+
+*/
+
+
+& {
+  background-color: #ECEAE8 !important;
+  color: #d1c9c0 !important;
+  border: none;
+}
+
+ .cm-gutters {
+  color: #adaba6;
+  background-color: #E5E1DB;
+  border: none;
+}
+ .cm-cursor { border-left: solid thin #d1c9c0; }
+ .cm-linenumber { color: #adaba6; }
+.cm-focused div.cm-selected { background: #DCD8D2; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #DCD8D2; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #DCD8D2; }
+ .cm-comment { color: #d4c8be; }
+ .cm-string,  .cm-string-2 { color: #96c0d8; }
+ .cm-number { color: #a074c4; }
+ .cm-variable { color: #55b5db; }
+ .cm-variable-2 { color: #a074c4; }
+ .cm-def { color: #55b5db; }
+ .cm-operator { color: #9fb96e; }
+ .cm-keyword { color: #9fb96e; }
+ .cm-atom { color: #a074c4; }
+ .cm-meta { color: #96c0d8; }
+ .cm-tag { color: #96c0d8; }
+ .cm-attribute { color: #9fb96e; }
+ .cm-qualifier { color: #96c0d8; }
+ .cm-property { color: #a074c4; }
+ .cm-builtin { color: #a074c4; }
+ .cm-variable-3,  .cm-type { color: #96c0d8; }
+ .cm-activeLine{ background: #E7E4E0; }
+ .cm-matchingbracket { text-decoration: underline; }

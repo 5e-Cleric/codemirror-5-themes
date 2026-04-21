@@ -1,0 +1,33 @@
+& { background: #000; color: #f8f8f8; }
+ .cm-gutters { background: #0a001f; border-right: 1px solid #aaa; }
+ .cm-gutterElement span { color: #FFBD40; }
+ 
+ .cm-linenumber { color: #bababa; }
+ .cm-cursor { border-left: 1px solid white; }
+
+ .cm-comment     { color: #ededed; }
+ .cm-def         { color: #ff1c1c; font-weight:bold; }
+ .cm-keyword     { color: #ffd900; }
+ .cm-builtin     { color: #00d95a; }
+ .cm-variable    { color: #73ff00; }
+ .cm-string      { color: #007bff; }
+ .cm-number      { color: #00c4ff; }
+ .cm-atom        { color: #606060; }
+
+ .cm-variable-2  { color: #EEE; }
+ .cm-variable-3,  .cm-type { color: #DDD; }
+ .cm-property    {}
+ .cm-operator    {}
+
+ .cm-meta        { color: yellow; }
+ .cm-qualifier   { color: #FFF700; }
+ .cm-bracket     { color: #cc7; }
+ .cm-tag         { color: #FFBD40; }
+ .cm-attribute   { color: #FFF700; }
+ .cm-error       { color: #f00; }
+
+ div.cm-selected { background: #333d53; }
+
+ .cm-compilation { background: rgb(255 255 255 / 12%); }
+
+ .cm-activeLine{ background: #253540; }

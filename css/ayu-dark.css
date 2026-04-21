@@ -1,0 +1,45 @@
+/* Based on https://github.com/dempfi/ayu */
+
+& { background: #0a0e14; color: #b3b1ad; }
+ div.cm-selected { background: #273747; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(39 55 71 / 9900%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(39 55 71 / 9900%); }
+ .cm-gutters { background: #0a0e14; border-right: 0; }
+ .cm-gutterElement span { color: white; }
+ 
+ .cm-linenumber { color: #3d424d; }
+ .cm-cursor { border-left: 1px solid #e6b450; }
+.cm-fat-cursor .cm-cursor { background-color: #a2a8a175 !important; }
+ .cm-animate-fat-cursor { background-color: #a2a8a175 !important; }
+
+ .cm-comment { color: #626a73; }
+ .cm-atom { color: #ae81ff; }
+ .cm-number { color: #e6b450; }
+
+ .cm-comment.cm-attribute { color: #ffb454; }
+ .cm-comment.cm-def { color: rgb(57 186 230 / 8000%); }
+ .cm-comment.cm-tag { color: #39bae6; }
+ .cm-comment.cm-type { color: #5998a6; }
+
+ .cm-property,  .cm-attribute { color: #ffb454; }  
+ .cm-keyword { color: #ff8f40; } 
+ .cm-builtin { color: #e6b450; }
+ .cm-string { color: #c2d94c; }
+
+ .cm-variable { color: #b3b1ad; }
+ .cm-variable-2 { color: #f07178; }
+ .cm-variable-3 { color: #39bae6; }
+ .cm-type { color: #ff8f40; }
+ .cm-def { color: #fe9; }
+ .cm-bracket { color: #f8f8f2; }
+ .cm-tag { color: rgb(57 186 230 / 8000%); }
+ .cm-header { color: #c2d94c; }
+ .cm-link { color: #39bae6; }
+ .cm-error { color: #f33; } 
+
+ .cm-activeLine{ background: #01060e; }
+
+ .cm-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}

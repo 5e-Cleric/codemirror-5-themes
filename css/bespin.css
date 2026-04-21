@@ -1,0 +1,34 @@
+/*
+
+    Name:       Bespin
+    Author:     Mozilla / Jan T. Sott
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+& {background: #28211c; color: #9d9b97;}
+ div.cm-selected {background: #59554f !important;}
+ .cm-gutters {background: #28211c; border-right: 0;}
+ .cm-linenumber {color: #666;}
+ .cm-cursor {border-left: 1px solid #797977 !important;}
+
+ .cm-comment {color: #937121;}
+ .cm-atom {color: #9b859d;}
+ .cm-number {color: #9b859d;}
+
+ .cm-property,  .cm-attribute {color: #54be0d;}
+ .cm-keyword {color: #cf6a4c;}
+ .cm-string {color: #f9ee98;}
+
+ .cm-variable {color: #54be0d;}
+ .cm-variable-2 {color: #5ea6ea;}
+ .cm-def {color: #cf7d34;}
+ .cm-error {background: #cf6a4c; color: #797977;}
+ .cm-bracket {color: #9d9b97;}
+ .cm-tag {color: #cf6a4c;}
+ .cm-link {color: #9b859d;}
+
+ .cm-matchingbracket { text-decoration: underline; color: white !important;}
+ .cm-activeLine{ background: #404040; }

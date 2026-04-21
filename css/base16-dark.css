@@ -1,0 +1,40 @@
+/*
+
+    Name:       Base16 Default Dark
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+& { background: #151515; color: #e0e0e0; }
+ div.cm-selected { background: #303030; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(48 48 48 / 99%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(48 48 48 / 99%); }
+ .cm-gutters { background: #151515; border-right: 0; }
+ .cm-gutterElement span { color: #ac4142; }
+ 
+ .cm-linenumber { color: #505050; }
+ .cm-cursor { border-left: 1px solid #b0b0b0; }
+.cm-fat-cursor .cm-cursor { background-color: #8e8d8875 !important; }
+ .cm-animate-fat-cursor { background-color: #8e8d8875 !important; }
+
+ .cm-comment { color: #8f5536; }
+ .cm-atom { color: #aa759f; }
+ .cm-number { color: #aa759f; }
+
+ .cm-property,  .cm-attribute { color: #90a959; }
+ .cm-keyword { color: #ac4142; }
+ .cm-string { color: #f4bf75; }
+
+ .cm-variable { color: #90a959; }
+ .cm-variable-2 { color: #6a9fb5; }
+ .cm-def { color: #d28445; }
+ .cm-bracket { color: #e0e0e0; }
+ .cm-tag { color: #ac4142; }
+ .cm-link { color: #aa759f; }
+ .cm-error { background: #ac4142; color: #b0b0b0; }
+
+ .cm-activeLine{ background: #202020; }
+ .cm-matchingbracket { text-decoration: underline; color: white !important; }

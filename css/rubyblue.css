@@ -1,0 +1,25 @@
+& { background: #112435; color: white; }
+ div.cm-selected { background: #38566F; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(56 86 111 / 99%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(56 86 111 / 99%); }
+ .cm-gutters { background: #1F4661; border-right: 7px solid #3E7087; }
+ .cm-gutterElement span { color: white; }
+ 
+ .cm-linenumber { color: white; }
+ .cm-cursor { border-left: 1px solid white; }
+
+ .cm-comment { color: #999; font-style:italic; line-height: 1em; }
+ .cm-atom { color: #F4C20B; }
+ .cm-number,  .cm-attribute { color: #82C6E0; }
+ .cm-keyword { color: #F0F; }
+ .cm-string { color: #F08047; }
+ .cm-meta { color: #F0F; }
+ .cm-variable-2,  .cm-tag { color: #7BD827; }
+ .cm-variable-3,  .cm-def,  .cm-type { color: white; }
+ .cm-bracket { color: #F0F; }
+ .cm-link { color: #F4C20B; }
+ .cm-matchingbracket { color:#F0F !important; }
+ .cm-builtin,  .cm-special { color: #FF9D00; }
+ .cm-error { color: #AF2018; }
+
+ .cm-activeLine{ background: #173047; }

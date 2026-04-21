@@ -1,0 +1,48 @@
+/*
+
+    Name:       oceanic-next
+    Author:     Filype Pereira (https://github.com/fpereira1)
+
+    Original oceanic-next color scheme by Dmitri Voronianski (https://github.com/voronianski/oceanic-next-color-scheme)
+
+*/
+
+& { background: #304148; color: #f8f8f2; }
+ div.cm-selected { background: rgb(101 115 126 / 33%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(101 115 126 / 33%); }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: rgb(101 115 126 / 33%); }
+ .cm-gutters { background: #304148; border-right: 10px; }
+ .cm-gutterElement span { color: white; }
+ 
+ .cm-linenumber { color: #d0d0d0; }
+ .cm-cursor { border-left: 1px solid #f8f8f0; }
+.cm-fat-cursor .cm-cursor { background-color: #a2a8a175 !important; }
+ .cm-animate-fat-cursor { background-color: #a2a8a175 !important; }
+
+ .cm-comment { color: #65737E; }
+ .cm-atom { color: #C594C5; }
+ .cm-number { color: #F99157; }
+
+ .cm-property { color: #99C794; }
+
+ .cm-attribute,
+ .cm-keyword { color: #C594C5; }
+ .cm-builtin { color: #66d9ef; }
+ .cm-string { color: #99C794; }
+
+ .cm-variable,
+ .cm-variable-2,
+ .cm-variable-3 { color: #f8f8f2; }
+ .cm-def { color: #69C; }
+ .cm-bracket { color: #5FB3B3; }
+ .cm-tag { color: #C594C5; }
+ .cm-header { color: #C594C5; }
+ .cm-link { color: #C594C5; }
+ .cm-error { background: #C594C5; color: #f8f8f0; }
+
+ .cm-activeLine{ background: rgb(101 115 126 / 33%); }
+
+ .cm-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}

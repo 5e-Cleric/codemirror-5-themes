@@ -1,0 +1,44 @@
+/* Based on arcticicestudio's Nord theme */
+
+/* https://github.com/arcticicestudio/nord */
+
+& { background: #2e3440; color: #d8dee9; }
+ div.cm-selected { background: #434c5e; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #3b4252; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #3b4252; }
+ .cm-gutters { background: #2e3440; border-right: 0; }
+ .cm-gutterElement span { color: #4c566a; }
+ 
+ .cm-linenumber { color: #4c566a; }
+ .cm-cursor { border-left: 1px solid #f8f8f0; }
+
+ .cm-comment { color: #4c566a; }
+ .cm-atom { color: #b48ead; }
+ .cm-number { color: #b48ead; }
+
+ .cm-comment.cm-attribute { color: #97b757; }
+ .cm-comment.cm-def { color: #bc9262; }
+ .cm-comment.cm-tag { color: #bc6283; }
+ .cm-comment.cm-type { color: #5998a6; }
+
+ .cm-property,  .cm-attribute { color: #8FBCBB; }
+ .cm-keyword { color: #81A1C1; }
+ .cm-builtin { color: #81A1C1; }
+ .cm-string { color: #A3BE8C; }
+
+ .cm-variable { color: #d8dee9; }
+ .cm-variable-2 { color: #d8dee9; }
+ .cm-variable-3,  .cm-type { color: #d8dee9; }
+ .cm-def { color: #8FBCBB; }
+ .cm-bracket { color: #81A1C1; }
+ .cm-tag { color: #bf616a; }
+ .cm-header { color: #b48ead; }
+ .cm-link { color: #b48ead; }
+ .cm-error { background: #bf616a; color: #f8f8f0; }
+
+ .cm-activeLine{ background: #3b4252; }
+
+ .cm-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}

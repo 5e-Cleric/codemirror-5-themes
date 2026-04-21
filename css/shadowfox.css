@@ -1,0 +1,52 @@
+/*
+
+    Name:       shadowfox
+    Author:     overdodactyl (http://github.com/overdodactyl)
+
+    Original shadowfox color scheme by Firefox
+
+*/
+
+& { background: #2a2a2e; color: #b1b1b3; }
+ div.cm-selected { background: #353B48; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #353B48; }
+ .cm-line::selection,  .cm-line > span::selection,  .cm-line > span > span::selection { background: #353B48; }
+ .cm-gutters { background: #0c0c0d ; border-right: 1px solid #0c0c0d; }
+ .cm-gutterElement span { color: #555; }
+ .cm-linenumber { color: #939393; }
+ .cm-cursor { border-left: 1px solid #fff; }
+
+ .cm-comment { color: #939393; }
+ .cm-atom { color: #FF7DE9; }
+ .cm-quote { color: #FF7DE9; }
+ .cm-builtin { color: #FF7DE9; }
+ .cm-attribute { color: #FF7DE9; }
+ .cm-keyword { color: #FF7DE9; }
+ .cm-error { color: #FF7DE9; }
+
+ .cm-number { color: #6B89FF; }
+ .cm-string { color: #6B89FF; }
+ .cm-string-2 { color: #6B89FF; }
+
+ .cm-meta { color: #939393; }
+ .cm-hr { color: #939393; }
+
+ .cm-header { color: #75BFFF; }
+ .cm-qualifier { color: #75BFFF; }
+ .cm-variable-2 { color: #75BFFF; }
+
+ .cm-property { color: #86DE74; }
+
+ .cm-def { color: #75BFFF; }
+ .cm-bracket { color: #75BFFF; }
+ .cm-tag { color: #75BFFF; }
+ .cm-link:visited { color: #75BFFF; }
+
+ .cm-variable { color: #B98EFF; }
+ .cm-variable-3 { color: #d7d7db; }
+ .cm-link { color: #737373; }
+ .cm-operator { color: #b1b1b3; }
+ .cm-special { color: #d7d7db; }
+
+ .cm-activeLine{ background: rgb(185 215 253 / 15%) }
+ .cm-matchingbracket { outline: solid 1px rgb(255 255 255 / 25%); color: white !important; }
