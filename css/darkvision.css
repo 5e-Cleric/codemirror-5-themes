@@ -1,0 +1,117 @@
+& {
+    background: #0c0c0c;
+    color: #b9bdb6;
+}
+
+/* Blinking cursor and selection */
+.cm-cursor {
+    border-left: 1px solid #b9bdb6;
+}
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
+    background: #e0e8ff40;
+}
+
+/* Line number stuff */
+.cm-gutterElement {
+    color: #81969a;
+}
+
+.cm-gutters {
+    background-color: #0c0c0c;
+}
+
+/* column splits */
+.editor .codeEditor .columnSplit {
+    font-style: italic;
+    color: inherit;
+    background-color: #1f5763;
+    border-bottom: #299 solid 1px;
+}
+
+/* # headings */
+.cm-header {
+    color: #c51b1b;
+    -webkit-text-stroke-width: 0.1px;
+}
+/* bold points */
+.cm-strong {
+    font-weight: bold;
+    color: #309dd2;
+}
+/* Link headings */
+.cm-link {
+    color: #dd6300;
+}
+/* links */
+.cm-string {
+    color: #5ce638;
+}
+/*@import*/
+.cm-def {
+    color: #2986cc;
+}
+/* Bullets and such */
+.cm-variable-2 {
+    color: #3cbf30;
+}
+
+/* Tags (divs) */
+.cm-tag {
+    color: #e3ff00;
+}
+.cm-attribute {
+    color: #e3ff00;
+}
+.cm-atom {
+    color: #cf7ea9;
+}
+.cm-qualifier {
+    color: #ee1919;
+}
+.cm-comment {
+    color: #bbc700;
+}
+.cm-keyword {
+    color: #cc66ff;
+}
+.cm-property {
+    color: aqua;
+}
+.cm-error {
+    color: #c50202;
+}
+.cm-gutterElement span {
+    color: #f0ff00;
+}
+.cm-builtin {
+    color: #fff;
+}
+
+.editor .codeEditor {
+    /* blocks */
+    .cm-block:not(:has(.cm-comment)) {
+        color: magenta;
+    }
+    /* definition lists */
+    .cm-definitionList {
+        color: #ffaa3e;
+
+        .cm-definitionTerm {
+            color: #7290d9;
+        }
+        .cm-definitionColon {
+            background: #333;
+        }
+        .cm-definitionDesc {
+            color: "#b5858d";
+        }
+    }
+
+    /* New page  */
+    .cm-pageLine {
+        background: #000;
+        color: #000;
+        border-bottom: 1px solid #fff;
+    }
+}
