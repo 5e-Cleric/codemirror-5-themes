@@ -64,6 +64,7 @@ Read the [CodeMirror documentation](https://codemirror.net/6/examples/styling/) 
 - cobalt
 - colorforth
 - darcula
+- darkvision
 - dracula
 - duotone-dark
 - duotone-light
@@ -81,12 +82,12 @@ Read the [CodeMirror documentation](https://codemirror.net/6/examples/styling/) 
 - lucario
 - material-darker
 - material-ocean
-- material-palenight
 
 </div>
 
 <div>
 
+- material-palenight
 - material
 - mbo
 - mdn-like
