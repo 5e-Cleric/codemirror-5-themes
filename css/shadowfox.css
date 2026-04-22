@@ -115,9 +115,9 @@
 }
 
 .cm-activeLine {
-    background: rgb(185 215 253 / 15%);
+    background: #b9d7fd26;
 }
 .cm-matchingbracket {
-    outline: solid 1px rgb(255 255 255 / 25%);
+    outline: solid 1px #ffffff40;
     color: white !important;
 }

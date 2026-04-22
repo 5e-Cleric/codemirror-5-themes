@@ -34,16 +34,16 @@
 }
 
 .cm-selectionBackground  {
-    background: rgb(113 124 180 / 20%) !important;
+    background: #717cb433 !important;
 }
 
 
 &.cm-focused .cm-selectionBackground{
-    background: rgb(128 203 196 / 20%) !important;
+    background: #80cbc433 !important;
 }
 
 .cm-activeLine {
-    background: rgb(0 0 0 / 50%);
+    background: #00000080;
 }
 
 .cm-keyword {

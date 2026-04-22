@@ -103,10 +103,10 @@
     border-bottom: 1px solid red;
 }
 
-div .cm-activeLine {
-    background: #efefff;
+.cm-activeLine {
+    background: #efefff33;
 }
-div .cm-matchingbracket {
+.cm-matchingbracket {
     outline: 1px solid grey;
     color: inherit;
 }

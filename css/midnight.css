@@ -3,7 +3,7 @@
 
 /* \3c !--activeline--> */
 .cm-activeLine {
-    background: #253540;
+    background: #25354033;
 }
 
 & {
@@ -15,7 +15,7 @@
     background: #314d67 !important;
 }
 &.cm-focused .cm-selectionBackground{
-    background: rgb(49 77 103 / 99%) !important;
+    background: #314d67fc !important;
 }
 .cm-gutters {
     background: #0f192a;

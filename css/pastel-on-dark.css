@@ -88,11 +88,11 @@
     color: #f8f8f0;
 }
 .cm-activeLine {
-    background: rgb(255 255 255 / 3.1%);
+    background: #ffffff08;
 }
 
 .cm-matchingbracket {
-    border: 1px solid rgb(255 255 255 / 25%);
+    border: 1px solid #ffffff40;
     color: #8f938f !important;
     margin: -1px -1px 0;
 }

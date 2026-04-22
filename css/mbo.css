@@ -86,11 +86,11 @@
 }
 
 .cm-activeLine {
-    background: #494b41;
+    background: #494b4133;
 }
 .cm-matchingbracket {
     color: #ffb928 !important;
 }
 .cm-matchingtag {
-    background: rgb(255 255 255 / 37%);
+    background: #ffffff5e;
 }

@@ -27,7 +27,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
     opacity: 0.5;
 }
 .cm-activeLine {
-    background: #e3dcce; /* background: #e3dcce80; */
+    background: #e3dcce33; /* background: #e3dcce80; */
     opacity: 0.5;
 }
 .cm-fat-cursor .cm-cursor {

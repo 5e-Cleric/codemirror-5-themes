@@ -17,7 +17,7 @@
 }
 
 .cm-activeLine {
-    background: rgb(99 123 156 / 10%);
+    background: #637b9c1a;
 }
 
 .cm-selectionBackground, &.cm-focused .cm-selectionBackground {

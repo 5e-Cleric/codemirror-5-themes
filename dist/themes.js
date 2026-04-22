@@ -66,7 +66,7 @@ const themes = {
     "color": "#5c5855"
   },
   ".cm-activeLine": {
-    "background": "#e8f2ff"
+    "background": "#e8f2ff33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -138,7 +138,7 @@ const themes = {
     "color": "#807d7c"
   },
   ".cm-activeLine": {
-    "background": "#2f2f2f"
+    "background": "#2f2f2f33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -275,7 +275,7 @@ const themes = {
     "outline": "1px solid #39a78d "
   },
   ".cm-activeLine,\n.cm-activeline-gutter": {
-    "background": "#3c3022 "
+    "background": "#3c302233 "
   },
   ".cm-activeLineGutter": {
     "color": "#d8ff84 ",
@@ -370,7 +370,7 @@ const themes = {
     "color": "blueviolet"
   },
   ".cm-activeLine": {
-    "background": "#314151"
+    "background": "#31415133"
   }
 }, { dark: true }),
   "ambiance-mobile": EditorView.theme({
@@ -587,7 +587,7 @@ const themes = {
     "color": "#f33"
   },
   ".cm-activeLine": {
-    "background": "#01060e"
+    "background": "#01060e33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -692,7 +692,7 @@ const themes = {
     "color": "#f33"
   },
   ".cm-activeLine": {
-    "background": "#191e2a"
+    "background": "#191e2a33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -770,7 +770,7 @@ const themes = {
     "color": "#b0b0b0"
   },
   ".cm-activeLine": {
-    "background": "#202020"
+    "background": "#20202033"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -842,7 +842,7 @@ const themes = {
     "color": "#505050"
   },
   ".cm-activeLine": {
-    "background": "#dddcdc"
+    "background": "#dddcdc33"
   },
   ".cm-matchingbracket": {
     "color": "#f5f5f5",
@@ -912,7 +912,7 @@ const themes = {
     "color": "white"
   },
   ".cm-activeLine": {
-    "background": "#404040"
+    "background": "#40404033"
   }
 }, { dark: true }),
   "blackboard": EditorView.theme({
@@ -992,7 +992,7 @@ const themes = {
     "color": "#f8f8f8"
   },
   ".cm-activeLine": {
-    "background": "#3c3636"
+    "background": "#3c363633"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -1063,7 +1063,7 @@ const themes = {
     "color": "#9d1e15"
   },
   ".cm-activeLine": {
-    "background": "#002d57"
+    "background": "#002d5733"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -1146,7 +1146,7 @@ const themes = {
     "background": "rgb(255 255 255 / 12%)"
   },
   ".cm-activeLine": {
-    "background": "#253540"
+    "background": "#25354033"
   }
 }, { dark: true }),
   "darcula": EditorView.theme({
@@ -1243,7 +1243,7 @@ const themes = {
     "borderLeft": "1px solid #a9b7c6"
   },
   ".cm-activeLine": {
-    "background": "#323232"
+    "background": "#32323233"
   },
   ".cm-gutters": {
     "background": "#313335",
@@ -1273,6 +1273,101 @@ const themes = {
     "color": "#9c9e9e"
   }
 }, { dark: true }),
+  "darkvision": EditorView.theme({
+  "&": {
+    "background": "#0c0c0c",
+    "color": "#b9bdb6"
+  },
+  ".cm-cursor": {
+    "borderLeft": "1px solid #b9bdb6"
+  },
+  ".cm-selectionBackground,\r\n&.cm-focused .cm-selectionBackground": {
+    "background": "#e0e8ff40"
+  },
+  ".cm-gutterElement": {
+    "color": "#81969a"
+  },
+  ".cm-gutters": {
+    "backgroundColor": "#0c0c0c"
+  },
+  ".editor .codeEditor .columnSplit": {
+    "fontStyle": "italic",
+    "color": "inherit",
+    "backgroundColor": "#1f5763",
+    "borderBottom": "#299 solid 1px"
+  },
+  ".cm-header": {
+    "color": "#c51b1b",
+    "WebkitTextStrokeWidth": "0.1px"
+  },
+  ".cm-strong": {
+    "fontWeight": "bold",
+    "color": "#309dd2"
+  },
+  ".cm-link": {
+    "color": "#dd6300"
+  },
+  ".cm-string": {
+    "color": "#5ce638"
+  },
+  ".cm-def": {
+    "color": "#2986cc"
+  },
+  ".cm-variable-2": {
+    "color": "#3cbf30"
+  },
+  ".cm-tag": {
+    "color": "#e3ff00"
+  },
+  ".cm-attribute": {
+    "color": "#e3ff00"
+  },
+  ".cm-atom": {
+    "color": "#cf7ea9"
+  },
+  ".cm-qualifier": {
+    "color": "#ee1919"
+  },
+  ".cm-comment": {
+    "color": "#bbc700"
+  },
+  ".cm-keyword": {
+    "color": "#cc66ff"
+  },
+  ".cm-property": {
+    "color": "aqua"
+  },
+  ".cm-error": {
+    "color": "#c50202"
+  },
+  ".cm-gutterElement span": {
+    "color": "#f0ff00"
+  },
+  ".cm-builtin": {
+    "color": "#fff"
+  },
+  ".cm-block:not(:has(.cm-comment))": {
+    "color": "magenta"
+  },
+  ".cm-definitionList": {
+    "color": "\"#b5858d\"",
+    "background": "#333"
+  },
+  ".cm-definitionTerm": {
+    "color": "#7290d9"
+  },
+  ".cm-definitionColon": {
+    "background": "#333"
+  },
+  ".cm-definitionDesc": {
+    "color": "\"#b5858d\""
+  },
+  ".cm-pageLine": {
+    "background": "#000",
+    "color": "#000",
+    "borderBottom": "1px solid #fff"
+  }
+}, { dark: false }),
   "dracula": EditorView.theme({
   "&,\n.cm-gutters": {
     "backgroundColor": "#282a36",
@@ -1371,7 +1466,7 @@ const themes = {
     "opacity": "0.5"
   },
   ".cm-activeLine": {
-    "background": "#363342",
+    "background": "#36334233",
     "opacity": "0.5"
   },
   ".cm-fat-cursor .cm-cursor": {
@@ -1437,7 +1532,7 @@ const themes = {
     "opacity": "0.5"
   },
   ".cm-activeLine": {
-    "background": "#e3dcce",
+    "background": "#e3dcce33",
     "opacity": "0.5"
   },
   ".cm-fat-cursor .cm-cursor": {
@@ -1543,7 +1638,7 @@ const themes = {
     "color": "#f00"
   },
   ".cm-activeLine": {
-    "background": "#e8f2ff"
+    "background": "#e8f2ff33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -1586,7 +1681,7 @@ const themes = {
     "backgroundColor": "#fdd"
   },
   ".cm-activeLine": {
-    "background": "#e8f2ff"
+    "background": "#e8f2ff33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -1681,7 +1776,7 @@ const themes = {
     "color": "#9d1e15"
   },
   ".cm-activeLine": {
-    "background": "#013461"
+    "background": "#01346133"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -1758,7 +1853,7 @@ const themes = {
     "color": "#8ec07c"
   },
   ".cm-activeLine": {
-    "background": "#3c3836"
+    "background": "#3c383633"
   },
   ".cm-matchingbracket": {
     "background": "#928374",
@@ -1834,7 +1929,7 @@ const themes = {
     "color": "white"
   },
   ".cm-activeLine": {
-    "background": "#302020"
+    "background": "#30202033"
   }
 }, { dark: true }),
   "icecoder": EditorView.theme({
@@ -1933,7 +2028,7 @@ const themes = {
     "background": "#555"
   },
   ".cm-activeLine": {
-    "background": "#000"
+    "background": "#00000033"
   }
 }, { dark: true }),
   "idea": EditorView.theme({
@@ -1998,7 +2093,7 @@ const themes = {
     "color": "#00f"
   },
   ".cm-activeLine": {
-    "background": "#fffae3"
+    "background": "#fffae333"
   },
   ".cm-builtin": {
     "color": "#30a"
@@ -2083,7 +2178,7 @@ const themes = {
     "color": "white"
   },
   ".cm-activeLine": {
-    "background": "#202020"
+    "background": "#20202033"
   }
 }, { dark: true }),
   "juejin": EditorView.theme({
@@ -2213,7 +2308,7 @@ const themes = {
     "color": "#9d1e15"
   },
   ".cm-activeLine": {
-    "background": "#3c3a3a"
+    "background": "#3c3a3a33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -2448,7 +2543,7 @@ const themes = {
     "color": "#ffb86c"
   },
   ".cm-activeLine": {
-    "background": "#243443"
+    "background": "#24344333"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -2478,7 +2573,7 @@ const themes = {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
-    "background": "rgb(0 0 0 / 50%)"
+    "background": "#00000080"
   },
   ".cm-keyword": {
     "color": "#c792ea"
@@ -2569,7 +2664,7 @@ const themes = {
     "background": "rgb(128 203 196 / 20%)"
   },
   ".cm-activeLine": {
-    "background": "rgb(0 0 0 / 50%)"
+    "background": "#00000080"
   },
   ".cm-keyword": {
     "color": "#c792ea"
@@ -2654,13 +2749,13 @@ const themes = {
     "backgroundColor": "#607c8b80"
   },
   ".cm-selectionBackground": {
-    "background": "rgb(113 124 180 / 20%)"
+    "background": "#717cb433"
   },
   "&.cm-focused .cm-selectionBackground": {
-    "background": "rgb(128 203 196 / 20%)"
+    "background": "#80cbc433"
   },
   ".cm-activeLine": {
-    "background": "rgb(0 0 0 / 50%)"
+    "background": "#00000080"
   },
   ".cm-keyword": {
     "color": "#c792ea"
@@ -2745,13 +2840,13 @@ const themes = {
     "backgroundColor": "#5d6d5c80"
   },
   ".cm-selectionBackground": {
-    "background": "rgb(128 203 196 / 20%)"
+    "background": "#80cbc433"
   },
   "&.cm-focused .cm-selectionBackground": {
-    "background": "rgb(128 203 196 / 20%)"
+    "background": "#80cbc433"
   },
   ".cm-activeLine": {
-    "background": "rgb(0 0 0 / 50%)"
+    "background": "#00000080"
   },
   ".cm-keyword": {
     "color": "#c792ea"
@@ -2885,13 +2980,13 @@ const themes = {
     "color": "#ffffec"
   },
   ".cm-activeLine": {
-    "background": "#494b41"
+    "background": "#494b4133"
   },
   ".cm-matchingbracket": {
     "color": "#ffb928"
   },
   ".cm-matchingtag": {
-    "background": "rgb(255 255 255 / 37%)"
+    "background": "#ffffff5e"
   }
 }, { dark: true }),
   "mdn-like": EditorView.theme({
@@ -2983,17 +3078,17 @@ const themes = {
   ".cm-error": {
     "borderBottom": "1px solid red"
   },
-  "div .cm-activeLine": {
-    "background": "#efefff"
+  ".cm-activeLine": {
+    "background": "#efefff33"
   },
-  "div .cm-matchingbracket": {
+  ".cm-matchingbracket": {
     "outline": "1px solid grey",
     "color": "inherit"
   }
 }, { dark: false }),
   "midnight": EditorView.theme({
   ".cm-activeLine": {
-    "background": "#253540"
+    "background": "#25354033"
   },
   "&": {
     "background": "#0f192a",
@@ -3003,7 +3098,7 @@ const themes = {
     "background": "#314d67"
   },
   "&.cm-focused .cm-selectionBackground": {
-    "background": "rgb(49 77 103 / 99%)"
+    "background": "#314d67fc"
   },
   ".cm-gutters": {
     "background": "#0f192a",
@@ -3149,7 +3244,7 @@ const themes = {
     "color": "#f8f8f0"
   },
   ".cm-activeLine": {
-    "background": "#373831"
+    "background": "#37383133"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -3280,7 +3375,7 @@ const themes = {
     "color": "#3a3"
   },
   ".cm-activeLine": {
-    "background": "#e8f2ff"
+    "background": "#e8f2ff33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -3394,7 +3489,7 @@ const themes = {
     "color": "#9d1e15"
   },
   ".cm-activeLine": {
-    "background": "#1c005a"
+    "background": "#1c005a33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -3487,7 +3582,7 @@ const themes = {
     "color": "#f8f8f0"
   },
   ".cm-activeLine": {
-    "background": "#3b4252"
+    "background": "#3b425233"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -3568,7 +3663,7 @@ const themes = {
     "color": "#f8f8f0"
   },
   ".cm-activeLine": {
-    "background": "rgb(101 115 126 / 33%)"
+    "background": "#65737e54"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -3586,7 +3681,7 @@ const themes = {
     "borderColor": "#ff2c6d"
   },
   ".cm-activeLine": {
-    "background": "rgb(99 123 156 / 10%)"
+    "background": "#637b9c1a"
   },
   ".cm-selectionBackground, &.cm-focused .cm-selectionBackground": {
     "background": "#fff"
@@ -3719,7 +3814,7 @@ const themes = {
     "color": "#8d8687"
   },
   ".cm-activeLine": {
-    "background": "#4d344a"
+    "background": "#4d344a33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -3791,7 +3886,7 @@ const themes = {
     "color": "#776e71"
   },
   ".cm-activeLine": {
-    "background": "#cfd1c4"
+    "background": "#cfd1c433"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -3874,10 +3969,10 @@ const themes = {
     "color": "#f8f8f0"
   },
   ".cm-activeLine": {
-    "background": "rgb(255 255 255 / 3.1%)"
+    "background": "#ffffff08"
   },
   ".cm-matchingbracket": {
-    "border": "1px solid rgb(255 255 255 / 25%)",
+    "border": "1px solid #ffffff40",
     "color": "#8f938f",
     "margin": "-1px -1px 0"
   }
@@ -3945,7 +4040,7 @@ const themes = {
     "color": "white"
   },
   ".cm-activeLine": {
-    "background": "#303040"
+    "background": "#30304033"
   }
 }, { dark: true }),
   "rubyblue": EditorView.theme({
@@ -4014,7 +4109,7 @@ const themes = {
     "color": "#af2018"
   },
   ".cm-activeLine": {
-    "background": "#173047"
+    "background": "#17304733"
   }
 }, { dark: true }),
   "seti": EditorView.theme({
@@ -4086,7 +4181,7 @@ const themes = {
     "color": "#9fca56"
   },
   ".cm-activeLine": {
-    "background": "#101213"
+    "background": "#10121333"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -4193,10 +4288,10 @@ const themes = {
     "color": "#d7d7db"
   },
   ".cm-activeLine": {
-    "background": "rgb(185 215 253 / 15%)"
+    "background": "#b9d7fd26"
   },
   ".cm-matchingbracket": {
-    "outline": "solid 1px rgb(255 255 255 / 25%)",
+    "outline": "solid 1px #ffffff40",
     "color": "white"
   }
 }, { dark: true }),
@@ -4371,7 +4466,7 @@ const themes = {
     "backgroundColor": "#586e75"
   },
   ".cm-activeLine": {
-    "background": "rgb(0 0 0 / 6%)"
+    "background": "#0000000f"
   }
 }, { dark: false }),
   "ssms": EditorView.theme({
@@ -4400,7 +4495,7 @@ const themes = {
     "color": "teal"
   },
   ".cm-activeLine": {
-    "background": "#fff"
+    "background": "#ffffff33"
   },
   ".cm-string-2": {
     "color": "#f0f"
@@ -4496,7 +4591,7 @@ const themes = {
     "color": "#f00"
   },
   ".cm-activeLine": {
-    "background": "#040"
+    "background": "#00440033"
   }
 }, { dark: true }),
   "tomorrow-night-bright": EditorView.theme({
@@ -4561,7 +4656,7 @@ const themes = {
     "color": "#6a6a6a"
   },
   ".cm-activeLine": {
-    "background": "#2a2a2a"
+    "background": "#2a2a2a33"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -4633,7 +4728,7 @@ const themes = {
     "color": "#6a6a6a"
   },
   ".cm-activeLine": {
-    "background": "#343600"
+    "background": "#34360033"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline",
@@ -4849,7 +4944,7 @@ const themes = {
     "borderBottom": "1px solid red"
   },
   ".cm-activeLine": {
-    "background": "#27282e"
+    "background": "#27282e33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -4936,7 +5031,7 @@ const themes = {
     "borderBottom": "1px solid red"
   },
   ".cm-activeLine": {
-    "background": "#27282e"
+    "background": "#27282e33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -5019,7 +5114,7 @@ const themes = {
     "color": "#f00"
   },
   ".cm-activeLine": {
-    "background": "#27282e"
+    "background": "#27282e33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -5081,7 +5176,7 @@ const themes = {
     "color": "#f00"
   },
   ".cm-activeLine": {
-    "background": "#e8f2ff"
+    "background": "#e8f2ff33"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -5158,7 +5253,7 @@ const themes = {
     "color": "#96c0d8"
   },
   ".cm-activeLine": {
-    "background": "#e7e4e0"
+    "background": "#e7e4e033"
   },
   ".cm-matchingbracket": {
     "textDecoration": "underline"
@@ -5287,7 +5382,7 @@ const themes = {
     "borderBottom": "1px solid #c42412"
   },
   ".cm-activeLine": {
-    "background": "#272727"
+    "background": "#27272733"
   },
   ".cm-matchingbracket": {
     "outline": "1px solid grey",
@@ -5374,7 +5469,7 @@ const themes = {
     "background": "#000"
   },
   ".cm-activeLine": {
-    "background": "#000"
+    "background": "#00000033"
   },
   ".cm-selectionBackground": {
     "background": "#545454"

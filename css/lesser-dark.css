@@ -112,7 +112,7 @@ pre {
 }
 
 .cm-activeLine {
-    background: #3c3a3a;
+    background: #3c3a3a33;
 }
 .cm-matchingbracket {
     outline: 1px solid grey;

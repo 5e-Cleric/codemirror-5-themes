@@ -253,10 +253,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 }
 
 /* Active line */
-.cm-activeLine {
-    background: rgb(255 255 255 / 6%);
-}
 
 .cm-activeLine {
-    background: rgb(0 0 0 / 6%);
+    background: #0000000f;
 }

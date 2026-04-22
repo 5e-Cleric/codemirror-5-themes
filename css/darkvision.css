@@ -88,30 +88,28 @@
     color: #fff;
 }
 
-.editor .codeEditor {
-    /* blocks */
-    .cm-block:not(:has(.cm-comment)) {
-        color: magenta;
-    }
-    /* definition lists */
-    .cm-definitionList {
-        color: #ffaa3e;
+/* blocks */
+.cm-block:not(:has(.cm-comment)) {
+    color: magenta;
+}
+/* definition lists */
+.cm-definitionList {
+    color: #ffaa3e;
 
-        .cm-definitionTerm {
-            color: #7290d9;
-        }
-        .cm-definitionColon {
-            background: #333;
-        }
-        .cm-definitionDesc {
-            color: "#b5858d";
-        }
+    .cm-definitionTerm {
+        color: #7290d9;
     }
+    .cm-definitionColon {
+        background: #333;
+    }
+    .cm-definitionDesc {
+        color: "#b5858d";
+    }
+}
 
-    /* New page  */
-    .cm-pageLine {
-        background: #000;
-        color: #000;
-        border-bottom: 1px solid #fff;
-    }
+/* New page  */
+.cm-pageLine {
+    background: #000;
+    color: #000;
+    border-bottom: 1px solid #fff;
 }

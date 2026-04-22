@@ -276,7 +276,7 @@
 /* Equivalent to Vim's CursorLine group. */
 .cm-activeLine,
 .cm-activeline-gutter {
-    background: #3c3022 /* chocolate */;
+    background: #3c302233 /* chocolate */;
 }
 
 /* Equivalent to Vim's CursorLineNr group. */
