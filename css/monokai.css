@@ -5,10 +5,10 @@
     background: #272822;
     color: #f8f8f2;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #49483e !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(73 72 62 / 99%) !important;
 }
 .cm-gutters {
@@ -18,14 +18,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #d0d0d0;
 }
 .cm-cursor {
     border-left: 1px solid #f8f8f0;
 }
-
 .cm-comment {
     color: #75715e;
 }
@@ -35,7 +33,6 @@
 .cm-number {
     color: #ae81ff;
 }
-
 .cm-comment.cm-attribute {
     color: #97b757;
 }
@@ -48,7 +45,6 @@
 .cm-comment.cm-type {
     color: #5998a6;
 }
-
 .cm-property,
 .cm-attribute {
     color: #a6e22e;
@@ -62,7 +58,6 @@
 .cm-string {
     color: #e6db74;
 }
-
 .cm-variable {
     color: #f8f8f2;
 }
@@ -92,12 +87,14 @@
     background: #f92672;
     color: #f8f8f0;
 }
-
 .cm-activeLine {
     background: #37383133;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;
+}
+.cm-pageLine {
+    background: #444;
+    border-top: 1px solid #ae81ff;
 }
