@@ -1,6 +1,6 @@
 ## A library of custom themes for CodeMirror 6.
 
-`codemirror-5-themes` brings back all our beloved themes from Codemirror 5, mostly updated to work with the current CSS-in-JS syntax used.
+`codemirror-5-themes` brings back all our beloved themes from CodeMirror 5, mostly updated to work with the current CSS-in-JS syntax used.
 
 ---
 

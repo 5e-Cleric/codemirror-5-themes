@@ -1,6 +1,7 @@
 {
 	"name": "codemirror-5-themes",
-	"version": "1.5.1",
+	"description": "A collection of the CodeMirror 5 themes, transformed to work with CodeMirror 6",
+	"version": "1.5.2",
 	"type": "module",
 	"main": "./dist/themes.js",
 	"exports": {
@@ -9,9 +10,18 @@
 	"files": [
 		"dist"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/5e-Cleric/codemirror-5-themes.git"
+	},
+	"author": "Victor Losada Hernández",
 	"scripts": {
 		"build": "node build.js"
 	},
+	"bugs": {
+		"url": "https://github.com/5e-Cleric/codemirror-v6-spell-checker/issues"
+	},
+	"homepage": "https://github.com/5e-Cleric/codemirror-v6-spell-checker#readme",
 	"dependencies": {
 		"@codemirror/view": "^6.41.1"
 	},
