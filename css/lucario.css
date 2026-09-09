@@ -4,7 +4,6 @@
   Author:     Raphael Amorim
   Original Lucario color scheme (https://github.com/raphamorim/lucario)
 */
-
 &,
 .cm-gutters {
     background-color: #2b3e50 !important;
@@ -20,10 +19,10 @@
 .cm-linenumber {
     color: #f8f8f2;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #243443 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: #243443 !important;
 }
 .cm-comment {
@@ -76,7 +75,6 @@
 .cm-type {
     color: #ffb86c;
 }
-
 .cm-activeLine {
     background: #24344333;
 }

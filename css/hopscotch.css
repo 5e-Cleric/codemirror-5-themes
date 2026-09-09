@@ -2,16 +2,15 @@
 /*
     Name:       Hopscotch
     Author:     Jan T. Sott
-
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 */
-
 & {
     background: #322931;
     color: #d5d3d5;
 }
-.cm-selectionBackground, &.cm-focused .cm-selectionBackground {
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     background: #433b42 !important;
 }
 .cm-gutters {
@@ -24,7 +23,6 @@
 .cm-cursor {
     border-left: 1px solid #989498 !important;
 }
-
 .cm-comment {
     color: #b33508;
 }
@@ -34,7 +32,6 @@
 .cm-number {
     color: #c85e7c;
 }
-
 .cm-property,
 .cm-attribute {
     color: #8fc13e;
@@ -45,7 +42,6 @@
 .cm-string {
     color: #fdcc59;
 }
-
 .cm-variable {
     color: #8fc13e;
 }
@@ -68,7 +64,6 @@
 .cm-link {
     color: #c85e7c;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;

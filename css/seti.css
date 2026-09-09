@@ -4,13 +4,11 @@
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
     Original seti color scheme by Jesse Weed (https://github.com/jesseweed/seti-syntax)
 */
-
 & {
     background-color: #151718 !important;
     color: #cfd2d1 !important;
     border: none;
 }
-
 .cm-gutters {
     color: #404b53;
     background-color: #0e1112;
@@ -22,7 +20,8 @@
 .cm-linenumber {
     color: #6d8a88;
 }
-&.cm-focused .cm-selectionBackground, &.cm-focused .cm-selectionBackground {
+&.cm-focused .cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     background: rgb(255 255 255 / 10%) !important;
 }
 .cm-comment {

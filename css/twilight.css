@@ -3,13 +3,12 @@
     background: #141414;
     color: #f7f7f7;
 } /*  */
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #323232 !important;
 } /*  */
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(50 50 50 / 99%) !important;
 }
-
 .cm-gutters {
     background: #222;
     border-right: 1px solid #aaa;
@@ -17,14 +16,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #aaa;
 }
 .cm-cursor {
     border-left: 1px solid white;
 }
-
 .cm-keyword {
     color: #f9ee98;
 } /*  */
@@ -88,7 +85,6 @@
 .cm-error {
     border-bottom: 1px solid red;
 }
-
 .cm-activeLine {
     background: #27282e33;
 }

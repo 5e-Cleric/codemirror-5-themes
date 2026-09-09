@@ -3,10 +3,10 @@
     background: #002240;
     color: white;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #b36539 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(179 101 57 / 99%) !important;
 }
 .cm-gutters {
@@ -16,14 +16,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #d0d0d0;
 }
 .cm-cursor {
     border-left: 1px solid white;
 }
-
 .cm-quote {
     color: #ccc;
 }
@@ -88,7 +86,6 @@
 .cm-error {
     color: #9d1e15;
 }
-
 .cm-activeLine {
     background: #01346133;
 }

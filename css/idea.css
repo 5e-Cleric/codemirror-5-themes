@@ -8,7 +8,6 @@
         "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New",
         monospace, serif;
 }
-
 .cm-meta {
     color: #808000;
 }
@@ -70,25 +69,21 @@
 .cm-activeLine {
     background: #fffae333;
 }
-
 .cm-builtin {
     color: #30a;
 }
 .cm-bracket {
     color: #cc7;
 }
-
 .cm-matchingbracket {
     outline: 1px solid grey;
     color: black !important;
 }
-
 .cm-hints.idea {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     color: #616569;
     background-color: #ebf3fd !important;
 }
-
 .cm-hints.idea .cm-hint-active {
     background-color: #a2b8c9 !important;
     color: #5c6065 !important;

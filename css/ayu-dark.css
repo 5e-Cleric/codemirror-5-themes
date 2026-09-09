@@ -1,14 +1,13 @@
 /* mode: dark */
 /* Based on https://github.com/dempfi/ayu */
-
 & {
     background: #0a0e14;
     color: #b3b1ad;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #273747 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(39 55 71 / 9900%) !important;
 }
 .cm-gutters {
@@ -18,7 +17,6 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #3d424d;
 }
@@ -31,7 +29,6 @@
 .cm-animate-fat-cursor {
     background-color: #a2a8a175 !important;
 }
-
 .cm-comment {
     color: #626a73;
 }
@@ -41,7 +38,6 @@
 .cm-number {
     color: #e6b450;
 }
-
 .cm-comment.cm-attribute {
     color: #ffb454;
 }
@@ -54,7 +50,6 @@
 .cm-comment.cm-type {
     color: #5998a6;
 }
-
 .cm-property,
 .cm-attribute {
     color: #ffb454;
@@ -68,7 +63,6 @@
 .cm-string {
     color: #c2d94c;
 }
-
 .cm-variable {
     color: #b3b1ad;
 }
@@ -99,11 +93,9 @@
 .cm-error {
     color: #f33;
 }
-
 .cm-activeLine {
     background: #01060e33;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;

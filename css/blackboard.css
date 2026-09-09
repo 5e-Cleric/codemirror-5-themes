@@ -1,14 +1,13 @@
 /* mode: dark */
 /* Port of TextMate's Blackboard theme */
-
 & {
     background: #0c1021;
     color: #f8f8f8;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #253b76 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(37 59 118 / 99%) !important;
 }
 .cm-gutters {
@@ -18,14 +17,12 @@
 .cm-gutterElement span {
     color: #fbde2d;
 }
-
 .cm-linenumber {
     color: #888;
 }
 .cm-cursor {
     border-left: 1px solid #a7a7a7;
 }
-
 .cm-keyword {
     color: #fbde2d;
 }
@@ -78,7 +75,6 @@
     background: #9d1e15;
     color: #f8f8f8;
 }
-
 .cm-activeLine {
     background: #3c363633;
 }

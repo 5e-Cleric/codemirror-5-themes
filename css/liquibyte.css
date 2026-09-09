@@ -5,19 +5,16 @@
     line-height: 1.2em;
     font-size: 1em;
 }
-
 &.cm-focused .cm-matchhighlight {
     text-decoration: underline;
     text-decoration-color: #0f0;
     text-decoration-style: wavy;
 }
-
 .cm-trailingspace {
     text-decoration: line-through;
     text-decoration-color: #f00;
     text-decoration-style: dotted;
 }
-
 .cm-tab {
     text-decoration: line-through;
     text-decoration-color: #404040;
@@ -33,7 +30,6 @@
 }
 .cm-gutterElement span {
 }
-
 .cm-linenumber {
     color: #606060;
     padding-left: 0;
@@ -41,7 +37,6 @@
 .cm-cursor {
     border-left: 1px solid #eee;
 }
-
 .cm-comment {
     color: #008000;
 }
@@ -72,7 +67,6 @@
     color: #bf3030;
     font-weight: bold;
 }
-
 .cm-variable-2 {
     color: #007f7f;
     font-weight: bold;
@@ -89,7 +83,6 @@
 .cm-operator {
     color: #fff;
 }
-
 .cm-meta {
     color: #0f0;
 }
@@ -111,19 +104,16 @@
 .cm-error {
     color: #f00;
 }
-
-.cm-selectionBackground, &.cm-focused .cm-selectionBackground {
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     background-color: rgb(255 0 0 / 25%) !important;
 }
-
 .cm-compilation {
     background-color: rgb(255 255 255 / 12%);
 }
-
 .cm-activeLine {
     background-color: rgb(0 255 0 / 15%);
 }
-
 /* Default styles for common addons */
 & .cm-matchingbracket {
     color: #0f0;
@@ -136,52 +126,42 @@
 .cm-matchingtag {
     background-color: rgb(150 255 0 / 30%);
 }
-
 /* Scrollbars */
-
 /* Simple */
 div.cm-simplescroll-horizontal div:hover,
 div.cm-simplescroll-vertical div:hover {
     background-color: rgb(80 80 80 / 70%);
 }
-
 div.cm-simplescroll-horizontal div,
 div.cm-simplescroll-vertical div {
     background-color: rgb(80 80 80 / 30%);
     border: 1px solid #404040;
     border-radius: 5px;
 }
-
 div.cm-simplescroll-vertical div {
     border-top: 1px solid #404040;
     border-bottom: 1px solid #404040;
 }
-
 div.cm-simplescroll-horizontal div {
     border-left: 1px solid #404040;
     border-right: 1px solid #404040;
 }
-
 div.cm-simplescroll-vertical {
     background-color: #262626;
 }
-
 div.cm-simplescroll-horizontal {
     background-color: #262626;
     border-top: 1px solid #404040;
 }
-
 /* Overlay */
 div.cm-overlayscroll-horizontal div,
 div.cm-overlayscroll-vertical div {
     background-color: #404040;
     border-radius: 5px;
 }
-
 div.cm-overlayscroll-vertical div {
     border: 1px solid #404040;
 }
-
 div.cm-overlayscroll-horizontal div {
     border: 1px solid #404040;
 }

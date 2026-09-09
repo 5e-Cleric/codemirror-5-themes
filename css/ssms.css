@@ -28,7 +28,6 @@
 .cm-string-2 {
     color: #f0f;
 }
-
 .cm-operator,
 .cm-bracket,
 .cm-punctuation {
@@ -38,6 +37,7 @@
     border-right: 3px solid #ffee62;
     background-color: #fff;
 }
-.cm-selectionBackground, &.cm-focused .cm-selectionBackground  {
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     background: #add6ff !important;
 }

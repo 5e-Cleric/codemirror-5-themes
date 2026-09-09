@@ -1,33 +1,34 @@
 {
-	"name": "codemirror-5-themes",
-	"description": "A collection of the CodeMirror 5 themes, transformed to work with CodeMirror 6",
-	"version": "1.5.2",
-	"type": "module",
-	"main": "./dist/themes.js",
-	"exports": {
-		".": "./dist/themes.js"
-	},
-	"files": [
-		"dist"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/5e-Cleric/codemirror-5-themes.git"
-	},
-	"author": "Victor Losada Hernández",
-	"scripts": {
-		"build": "node build.js"
-	},
-	"bugs": {
-		"url": "https://github.com/5e-Cleric/codemirror-v6-spell-checker/issues"
-	},
-	"homepage": "https://github.com/5e-Cleric/codemirror-v6-spell-checker#readme",
-	"dependencies": {
-		"@codemirror/view": "^6.41.1"
-	},
-	"devDependencies": {
-		"postcss": "^8.5.10",
-		"prettier": "^3.8.3",
-		"vite": "^8.0.9"
-	}
+    "name": "codemirror-5-themes",
+    "description": "A collection of the CodeMirror 5 themes, transformed to work with CodeMirror 6",
+    "version": "1.5.2",
+    "type": "module",
+    "main": "./dist/themes.js",
+    "exports": {
+        ".": "./dist/themes.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/5e-Cleric/codemirror-5-themes.git"
+    },
+    "author": "Victor Losada Hernández",
+    "scripts": {
+        "build": "node build.js",
+        "lint": "prettier --write ."
+    },
+    "bugs": {
+        "url": "https://github.com/5e-Cleric/codemirror-v6-spell-checker/issues"
+    },
+    "homepage": "https://github.com/5e-Cleric/codemirror-v6-spell-checker#readme",
+    "dependencies": {
+        "@codemirror/view": "^6.41.1"
+    },
+    "devDependencies": {
+        "postcss": "^8.5.10",
+        "prettier": "^3.8.3",
+        "vite": "^8.0.9"
+    }
 }

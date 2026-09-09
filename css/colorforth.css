@@ -10,14 +10,12 @@
 .cm-gutterElement span {
     color: #ffbd40;
 }
-
 .cm-linenumber {
     color: #bababa;
 }
 .cm-cursor {
     border-left: 1px solid white;
 }
-
 .cm-comment {
     color: #ededed;
 }
@@ -43,7 +41,6 @@
 .cm-atom {
     color: #606060;
 }
-
 .cm-variable-2 {
     color: #eee;
 }
@@ -55,7 +52,6 @@
 }
 .cm-operator {
 }
-
 .cm-meta {
     color: yellow;
 }
@@ -74,16 +70,13 @@
 .cm-error {
     color: #f00;
 }
-
-.cm-selectionBackground ,
+.cm-selectionBackground,
 &.cm-focused .cm-selectionBackground {
     background: #333d53 !important;
 }
-
 .cm-compilation {
     background: rgb(255 255 255 / 12%);
 }
-
 .cm-activeLine {
     background: #25354033;
 }

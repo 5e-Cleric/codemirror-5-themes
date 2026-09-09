@@ -4,12 +4,12 @@
     Author:     Chris Kempson
     Port done by Gerard Braad <me@gbraad.nl>
 */
-
 & {
     background: #000;
     color: #eaeaea;
 }
-.cm-selectionBackground, &.cm-focused .cm-selectionBackground {
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     background: #424242 !important;
 }
 .cm-gutters {
@@ -19,14 +19,12 @@
 .cm-gutterElement span {
     color: #e78c45;
 }
-
 .cm-linenumber {
     color: #424242;
 }
 .cm-cursor {
     border-left: 1px solid #6a6a6a;
 }
-
 .cm-comment {
     color: #d27b53;
 }
@@ -36,7 +34,6 @@
 .cm-number {
     color: #a16a94;
 }
-
 .cm-property,
 .cm-attribute {
     color: #9c9;
@@ -47,7 +44,6 @@
 .cm-string {
     color: #e7c547;
 }
-
 .cm-variable {
     color: #b9ca4a;
 }
@@ -70,7 +66,6 @@
     background: #d54e53;
     color: #6a6a6a;
 }
-
 .cm-activeLine {
     background: #2a2a2a33;
 }

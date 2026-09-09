@@ -4,15 +4,14 @@
     Author:     Filype Pereira (https://github.com/fpereira1)
     Original oceanic-next color scheme by Dmitri Voronianski (https://github.com/voronianski/oceanic-next-color-scheme)
 */
-
 & {
     background: #304148;
     color: #f8f8f2;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: rgb(101 115 126 / 33%) !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(101 115 126 / 33%) !important;
 }
 .cm-gutters {
@@ -22,7 +21,6 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #d0d0d0;
 }
@@ -35,7 +33,6 @@
 .cm-animate-fat-cursor {
     background-color: #a2a8a175 !important;
 }
-
 .cm-comment {
     color: #65737e;
 }
@@ -45,11 +42,9 @@
 .cm-number {
     color: #f99157;
 }
-
 .cm-property {
     color: #99c794;
 }
-
 .cm-attribute,
 .cm-keyword {
     color: #c594c5;
@@ -60,7 +55,6 @@
 .cm-string {
     color: #99c794;
 }
-
 .cm-variable,
 .cm-variable-2,
 .cm-variable-3 {
@@ -85,11 +79,9 @@
     background: #c594c5;
     color: #f8f8f0;
 }
-
 .cm-activeLine {
     background: #65737e54;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;

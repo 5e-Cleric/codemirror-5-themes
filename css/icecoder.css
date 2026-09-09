@@ -2,12 +2,10 @@
 /*
     ICEcoder default theme by Matt Pass, used in code editor available at https://icecoder.net
 */
-
 & {
     color: #666;
     background: #1d1d1b;
 }
-
 .cm-keyword {
     color: #eee;
     font-weight: bold;
@@ -21,7 +19,6 @@
 .cm-def {
     color: #b9ca4a;
 } /* green */
-
 .cm-variable {
     color: #6cb5d9;
 } /* blue */
@@ -32,7 +29,6 @@
 .cm-type {
     color: #f9602c;
 } /* orange */
-
 .cm-property {
     color: #eee;
 } /* off-white 1 */
@@ -42,18 +38,15 @@
 .cm-comment {
     color: #97a3aa;
 } /* grey-blue */
-
 .cm-string {
     color: #b9ca4a;
 } /* green */
 .cm-string-2 {
     color: #6cb5d9;
 } /* blue */
-
 .cm-meta {
     color: #555;
 } /* grey */
-
 .cm-qualifier {
     color: #555;
 } /* grey */
@@ -63,14 +56,12 @@
 .cm-bracket {
     color: #cc7;
 } /* grey-yellow */
-
 .cm-tag {
     color: #e8e8e8;
 } /* off-white 2 */
 .cm-attribute {
     color: #099;
 } /* teal */
-
 .cm-header {
     color: #6a0d6a;
 } /* purple-pink */
@@ -86,11 +77,11 @@
 .cm-error {
     color: #d00;
 } /* red */
-
 .cm-cursor {
     border-left: 1px solid white;
 }
-.cm-selectionBackground, &.cm-focused .cm-selectionBackground  {
+.cm-selectionBackground,
+&.cm-focused .cm-selectionBackground {
     color: #fff !important;
     background: #037 !important;
 }

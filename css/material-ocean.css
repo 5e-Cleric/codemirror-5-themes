@@ -4,126 +4,97 @@
     Author:     Mattia Astorino (http://github.com/equinusocio)
     Website:    https://material-theme.site/
 */
-
 & {
     background-color: #0f111a;
     color: #8f93a2;
 }
-
 .cm-gutters {
     background: #0f111a;
     color: #464b5d;
     border: none;
 }
-
 .cm-gutterElement span,
 .cm-linenumber {
     color: #464b5d;
 }
-
 .cm-cursor {
     border-left: 1px solid #fc0;
 }
-
 .cm-fat-cursor .cm-cursor {
     background-color: #a2a8a175 !important;
 }
-
 .cm-animate-fat-cursor {
     background-color: #a2a8a175 !important;
 }
-
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: rgb(113 124 180 / 20%) !important;
 }
-
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(128 203 196 / 20%) !important;
 }
-
 .cm-activeLine {
     background: #00000080;
 }
-
 .cm-keyword {
     color: #c792ea;
 }
-
 .cm-operator {
     color: #89ddff;
 }
-
 .cm-variable-2 {
     color: #eff;
 }
-
 .cm-variable-3,
 .cm-type {
     color: #f07178;
 }
-
 .cm-builtin {
     color: #ffcb6b;
 }
-
 .cm-atom {
     color: #f78c6c;
 }
-
 .cm-number {
     color: #ff5370;
 }
-
 .cm-def {
     color: #82aaff;
 }
-
 .cm-string {
     color: #c3e88d;
 }
-
 .cm-string-2 {
     color: #f07178;
 }
-
 .cm-comment {
     color: #464b5d;
 }
-
 .cm-variable {
     color: #f07178;
 }
-
 .cm-tag {
     color: #ff5370;
 }
-
 .cm-meta {
     color: #ffcb6b;
 }
-
 .cm-attribute {
     color: #c792ea;
 }
-
 .cm-property {
     color: #c792ea;
 }
-
 .cm-qualifier {
     color: #decb6b;
 }
-
 .cm-variable-3,
 .cm-type {
     color: #decb6b;
 }
-
 .cm-error {
     color: rgb(255 255 255 / 100%);
     background-color: #ff5370;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;

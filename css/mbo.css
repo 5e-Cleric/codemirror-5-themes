@@ -1,19 +1,17 @@
 /* mode: dark */
-
 /*
     Based on mbonaci's Brackets mbo theme   
     https://github.com/mbonaci/global/blob/master/Mbo.tmTheme
     Create your own: http://tmtheme-editor.herokuapp.com
 */
-
 & {
     background: #2c2c2c;
     color: #ffffec;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #716c62 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(113 108 98 / 99%) !important;
 }
 .cm-gutters {
@@ -23,14 +21,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #dadada;
 }
 .cm-cursor {
     border-left: 1px solid #ffffec;
 }
-
 .cm-comment {
     color: #95958a;
 }
@@ -40,7 +36,6 @@
 .cm-number {
     color: #00a8c6;
 }
-
 .cm-property,
 .cm-attribute {
     color: #9ddfe9;
@@ -54,7 +49,6 @@
 .cm-string.cm-property {
     color: #ffffec;
 }
-
 .cm-variable {
     color: #ffffec;
 }
@@ -81,7 +75,6 @@
 .cm-qualifier {
     color: #ffffec;
 }
-
 .cm-activeLine {
     background: #494b4133;
 }

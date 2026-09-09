@@ -1,17 +1,15 @@
 /* mode: dark */
 /* Taken from the popular Visual Studio Vibrant Ink Schema */
-
 & {
     background: black;
     color: white;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #35493c !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(53 73 60 / 99%) !important;
 }
-
 .cm-gutters {
     background: #002240;
     border-right: 1px solid #aaa;
@@ -19,14 +17,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #d0d0d0;
 }
 .cm-cursor {
     border-left: 1px solid white;
 }
-
 .cm-keyword {
     color: #cc7832;
 }
@@ -85,7 +81,6 @@
 .cm-error {
     border-bottom: 1px solid red;
 }
-
 .cm-activeLine {
     background: #27282e33;
 }

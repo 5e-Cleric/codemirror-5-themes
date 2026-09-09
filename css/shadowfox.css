@@ -4,12 +4,11 @@
     Author:     overdodactyl (http://github.com/overdodactyl)
     Original shadowfox color scheme by Firefox
 */
-
 & {
     background: #2a2a2e;
     color: #b1b1b3;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #353b48 !important;
 }
 &.cm-focused .cm-selectionBackground {
@@ -28,7 +27,6 @@
 .cm-cursor {
     border-left: 1px solid #fff;
 }
-
 .cm-comment {
     color: #939393;
 }
@@ -50,7 +48,6 @@
 .cm-error {
     color: #ff7de9;
 }
-
 .cm-number {
     color: #6b89ff;
 }
@@ -60,14 +57,12 @@
 .cm-string-2 {
     color: #6b89ff;
 }
-
 .cm-meta {
     color: #939393;
 }
 .cm-hr {
     color: #939393;
 }
-
 .cm-header {
     color: #75bfff;
 }
@@ -77,11 +72,9 @@
 .cm-variable-2 {
     color: #75bfff;
 }
-
 .cm-property {
     color: #86de74;
 }
-
 .cm-def {
     color: #75bfff;
 }
@@ -94,7 +87,6 @@
 .cm-link:visited {
     color: #75bfff;
 }
-
 .cm-variable {
     color: #b98eff;
 }
@@ -110,7 +102,6 @@
 .cm-special {
     color: #d7d7db;
 }
-
 .cm-activeLine {
     background: #b9d7fd26;
 }

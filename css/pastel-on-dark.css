@@ -7,19 +7,17 @@
     version: 1.1
     source: https://github.com/atomicpages/codemirror-pastel-on-dark-theme
 */
-
 & {
     background: #2c2827;
     color: #8f938f;
     line-height: 1.5;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: rgb(221 240 255 / 20%) !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(221 240 255 / 20%) !important;
 }
-
 .cm-gutters {
     background: #34302f;
     border-right: 0;
@@ -28,7 +26,6 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #8f938f;
 }
@@ -82,7 +79,6 @@
 .cm-builtin {
     color: #c1c144;
 }
-
 .cm-error {
     background: #757ad8;
     color: #f8f8f0;
@@ -90,7 +86,6 @@
 .cm-activeLine {
     background: #ffffff08;
 }
-
 .cm-matchingbracket {
     border: 1px solid #ffffff40;
     color: #8f938f !important;

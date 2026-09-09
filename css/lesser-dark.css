@@ -11,10 +11,10 @@
     color: #ebefe7;
     text-shadow: 0 -1px 1px #262626;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #45443b !important;
 } /* 33322B */
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(69 68 59 / 99%) !important;
 }
 .cm-cursor {
@@ -23,11 +23,9 @@
 pre {
     padding: 0 8px;
 } /* editable code holder */
-
 & .cm-matchingbracket {
     color: #7efc7e;
 } /* 65FC65 */
-
 .cm-gutters {
     background: #262626;
     border-right: 1px solid #aaa;
@@ -35,11 +33,9 @@ pre {
 .cm-gutterElement span {
     color: #599eff;
 }
-
 .cm-linenumber {
     color: #777;
 }
-
 .cm-header {
     color: #a0a;
 }
@@ -110,7 +106,6 @@ pre {
 .cm-error {
     color: #9d1e15;
 }
-
 .cm-activeLine {
     background: #3c3a3a33;
 }

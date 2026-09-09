@@ -1,19 +1,16 @@
 /* mode: dark */
 /* Based on the theme at http://bonsaiden.github.com/JavaScript-Garden */
-
 .cm-activeLine {
     background: #25354033;
 }
-
 & {
     background: #0f192a;
     color: #d1edff;
 }
-
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #314d67 !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: #314d67fc !important;
 }
 .cm-gutters {
@@ -23,14 +20,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: #d0d0d0;
 }
 .cm-cursor {
     border-left: 1px solid #f8f8f0;
 }
-
 .cm-comment {
     color: #428bdd;
 }
@@ -40,7 +35,6 @@
 .cm-number {
     color: #d1edff;
 }
-
 .cm-property,
 .cm-attribute {
     color: #a6e22e;
@@ -51,7 +45,6 @@
 .cm-string {
     color: #1dc116;
 }
-
 .cm-variable {
     color: #ffaa3e;
 }
@@ -74,7 +67,6 @@
     background: #f92672;
     color: #f8f8f0;
 }
-
 .cm-matchingbracket {
     text-decoration: underline;
     color: white !important;

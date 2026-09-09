@@ -3,10 +3,10 @@
     background: #112435;
     color: white;
 }
-.cm-selectionBackground  {
+.cm-selectionBackground {
     background: #38566f !important;
 }
-&.cm-focused .cm-selectionBackground{
+&.cm-focused .cm-selectionBackground {
     background: rgb(56 86 111 / 99%) !important;
 }
 .cm-gutters {
@@ -16,14 +16,12 @@
 .cm-gutterElement span {
     color: white;
 }
-
 .cm-linenumber {
     color: white;
 }
 .cm-cursor {
     border-left: 1px solid white;
 }
-
 .cm-comment {
     color: #999;
     font-style: italic;
@@ -70,7 +68,6 @@
 .cm-error {
     color: #af2018;
 }
-
 .cm-activeLine {
     background: #17304733;
 }

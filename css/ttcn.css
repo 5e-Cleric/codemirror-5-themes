@@ -24,7 +24,6 @@
     color: #00f;
     font-weight: bold;
 }
-
 .cm-atom {
     color: #219;
 }
@@ -96,11 +95,9 @@
 .cm-type {
     color: #085;
 }
-
 .cm-invalidchar {
     color: #f00;
 }
-
 /* ASN */
 .cm-accessTypes,
 .cm-compareTypes {
@@ -121,26 +118,22 @@
 .cm-tags {
     color: #006400;
 }
-
 /* CFG */
 .cm-externalCommands {
     color: #8b4545;
     font-weight: bold;
 }
-
 .cm-fileNCtrlMaskOptions,
 .cm-sectionTitle {
     color: #2e8b57;
     font-weight: bold;
 }
-
 /* TTCN */
 .cm-booleanConsts,
 .cm-otherConsts,
 .cm-verdictConsts {
     color: #006400;
 }
-
 .cm-configOps,
 .cm-functionOps,
 .cm-portOps,
@@ -149,7 +142,6 @@
 .cm-verdictOps {
     color: #00f;
 }
-
 .cm-preprocessor,
 .cm-templateMatch,
 .cm-ttcn3Macros {
