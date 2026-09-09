@@ -81,7 +81,7 @@
    * under the cursor, so we can't use a reverse video effect for the cursor.
    * Instead, make it semitransparent.
    */
-    background: rgb(160 234 0 / 50%) /* chartreuse */;
+    background: #a0ea0080 /* chartreuse */;
 }
 .cm-fat-cursor .cm-cursors {
     /*

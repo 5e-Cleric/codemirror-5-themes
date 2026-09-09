@@ -87,12 +87,12 @@
 }
 .cm-matchhighlight {
     color: #fff;
-    background-color: rgb(50 89 48 / 70%);
+    background-color: #325930b3;
     font-weight: normal;
 }
 .cm-searching {
     color: #fff;
-    background-color: rgb(61 115 59 / 70%);
+    background-color: #3d733bb3;
     font-weight: normal;
 }
 .cm-cursor {

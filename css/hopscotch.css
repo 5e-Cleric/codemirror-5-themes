@@ -66,7 +66,7 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }
 .cm-activeLine {
     background: #30202033;

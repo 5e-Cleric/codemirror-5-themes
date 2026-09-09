@@ -13,7 +13,7 @@
     background: #3a3432 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(58 52 50 / 99%) !important;
+    background: #3a3432fc !important;
 }
 .cm-gutters {
     background: #090300;
@@ -74,5 +74,5 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

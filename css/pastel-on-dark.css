@@ -13,10 +13,10 @@
     line-height: 1.5;
 }
 .cm-selectionBackground {
-    background: rgb(221 240 255 / 20%) !important;
+    background: #ddf0ff33 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(221 240 255 / 20%) !important;
+    background: #ddf0ff33 !important;
 }
 .cm-gutters {
     background: #34302f;
@@ -24,7 +24,7 @@
     padding: 0 3px;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #8f938f;

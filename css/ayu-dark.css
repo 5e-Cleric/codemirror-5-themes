@@ -8,14 +8,14 @@
     background: #273747 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(39 55 71 / 9900%) !important;
+    background: #273747fc !important;
 }
 .cm-gutters {
     background: #0a0e14;
     border-right: 0;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #3d424d;
@@ -42,7 +42,7 @@
     color: #ffb454;
 }
 .cm-comment.cm-def {
-    color: rgb(57 186 230 / 8000%);
+    color: #39bae6cc;
 }
 .cm-comment.cm-tag {
     color: #39bae6;
@@ -82,7 +82,7 @@
     color: #f8f8f2;
 }
 .cm-tag {
-    color: rgb(57 186 230 / 8000%);
+    color: #39bae6cc;
 }
 .cm-header {
     color: #c2d94c;
@@ -98,5 +98,5 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

@@ -14,7 +14,7 @@
     color: #bababa;
 }
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 .cm-comment {
     color: #ededed;
@@ -75,7 +75,7 @@
     background: #333d53 !important;
 }
 .cm-compilation {
-    background: rgb(255 255 255 / 12%);
+    background: #ffffff1f;
 }
 .cm-activeLine {
     background: #25354033;

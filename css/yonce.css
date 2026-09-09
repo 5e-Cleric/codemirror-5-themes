@@ -7,13 +7,13 @@
 & {
     background: #1c1c1c;
     color: #d4d4d4;
-} /*  */
+}
 .cm-selectionBackground {
-    background: rgb(252 69 133 / 47.8%);
-} /*  */
+    background: #fc45857a;
+}
 .cm-selectionBackground,
 &.cm-focused .cm-selectionBackground {
-    background: rgb(252 67 132 / 47%) !important;
+    background: #fc438478 !important;
 }
 & pre {
     padding-left: 0;
@@ -37,23 +37,23 @@
     border-left: 2px solid #fc4384;
 }
 .cm-searching {
-    background: rgb(243 155 53 / 30%) !important;
+    background: #f39b354d !important;
     outline: 1px solid #f39b35;
 }
 .cm-searching.cm-selectionBackground {
-    background: rgb(243 155 53 / 70%) !important;
-    color: white;
+    background: #f39b35b3 !important;
+    color: #fff;
 }
 .cm-keyword {
     color: #00a7aa;
-} /*  */
+}
 .cm-atom {
     color: #f39b35;
 }
 .cm-number,
 .cm-type {
     color: #a06fca;
-} /*  */
+}
 .cm-def {
     color: #98e342;
 }
@@ -84,7 +84,7 @@
 }
 .cm-operator {
     color: #fc4384;
-} /*  */
+}
 .cm-qualifier,
 .cm-tag {
     color: #fc4384;
@@ -99,7 +99,7 @@
     color: #696d70;
     font-style: italic;
     font-weight: normal;
-} /*  */
+}
 .cm-comment.cm-tag {
     color: #fc4384;
 }
@@ -108,7 +108,7 @@
 }
 .cm-string {
     color: #e6db74;
-} /*  */
+}
 .cm-string-2 {
     color: #f39b35;
 } /* ? */
@@ -129,7 +129,7 @@
     color: #696d70;
     font-style: italic;
     text-decoration: none;
-} /*  */
+}
 .cm-error {
     border-bottom: 1px solid #c42412;
 }

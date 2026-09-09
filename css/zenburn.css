@@ -13,7 +13,7 @@
     color: #999;
 }
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 & {
     background-color: #3f3f3f;

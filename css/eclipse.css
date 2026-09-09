@@ -16,7 +16,7 @@
     color: #00f;
 }
 .cm-variable {
-    color: black;
+    color: #000;
 }
 .cm-variable-2 {
     color: #0000c0;
@@ -26,10 +26,10 @@
     color: #0000c0;
 }
 .cm-property {
-    color: black;
+    color: #000;
 }
 .cm-operator {
-    color: black;
+    color: #000;
 }
 .cm-comment {
     color: #3f7f5f;
@@ -66,5 +66,5 @@
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: black !important;
+    color: #000 !important;
 }

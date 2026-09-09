@@ -9,7 +9,7 @@
 .cm-keyword {
     color: #eee;
     font-weight: bold;
-} /* off-white 1 */
+} /* off-#fff 1 */
 .cm-atom {
     color: #e1c76e;
 } /* yellow */
@@ -31,7 +31,7 @@
 } /* orange */
 .cm-property {
     color: #eee;
-} /* off-white 1 */
+} /* off-#fff 1 */
 .cm-operator {
     color: #9179bb;
 } /* purple */
@@ -58,7 +58,7 @@
 } /* grey-yellow */
 .cm-tag {
     color: #e8e8e8;
-} /* off-white 2 */
+} /* off-#fff 2 */
 .cm-attribute {
     color: #099;
 } /* teal */
@@ -78,7 +78,7 @@
     color: #d00;
 } /* red */
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 .cm-selectionBackground,
 &.cm-focused .cm-selectionBackground {

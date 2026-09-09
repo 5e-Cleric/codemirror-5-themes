@@ -45,6 +45,6 @@ pre {
 .cm-cursor {
     width: auto;
     border: 0;
-    background: rgb(155 157 162 / 37%);
+    background: #9b9da25e;
     z-index: 1;
 }

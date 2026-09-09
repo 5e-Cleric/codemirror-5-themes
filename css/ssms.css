@@ -8,13 +8,13 @@
     color: red;
 }
 .cm-def {
-    color: black;
+    color: #000;
 }
 .cm-variable {
-    color: black;
+    color: #000;
 }
 .cm-variable-2 {
-    color: black;
+    color: #000;
 }
 .cm-atom {
     color: darkgray;

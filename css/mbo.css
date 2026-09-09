@@ -12,14 +12,14 @@
     background: #716c62 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(113 108 98 / 99%) !important;
+    background: #716c62fc !important;
 }
 .cm-gutters {
     background: #4e4e4e;
     border-right: 0;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #dadada;

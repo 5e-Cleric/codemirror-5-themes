@@ -21,10 +21,10 @@
     border-left: 1px solid #fc0;
 }
 .cm-selectionBackground {
-    background: rgb(97 97 97 / 20%) !important;
+    background: #61616133 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(128 203 196 / 20%) !important;
+    background: #80cbc433 !important;
 }
 .cm-activeLine {
     background: #00000080;
@@ -86,10 +86,10 @@
     color: #decb6b;
 }
 .cm-error {
-    color: rgb(255 255 255 / 100%);
+    color: #fff;
     background-color: #ff5370;
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

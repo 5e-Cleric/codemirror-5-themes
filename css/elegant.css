@@ -14,7 +14,7 @@
     line-height: 1em;
 }
 .cm-variable {
-    color: black;
+    color: #000;
 }
 .cm-variable-2 {
     color: #b11;
@@ -39,5 +39,5 @@
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: black !important;
+    color: #000 !important;
 }

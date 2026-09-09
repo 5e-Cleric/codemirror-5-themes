@@ -15,10 +15,10 @@
     background: #45443b !important;
 } /* 33322B */
 &.cm-focused .cm-selectionBackground {
-    background: rgb(69 68 59 / 99%) !important;
+    background: #45443bfc !important;
 }
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 pre {
     padding: 0 8px;
@@ -52,7 +52,7 @@ pre {
     color: #b35e4d;
 }
 .cm-def {
-    color: white;
+    color: #fff;
 }
 .cm-variable {
     color: #d9bf8c;
@@ -62,7 +62,7 @@ pre {
 }
 .cm-variable-3,
 .cm-type {
-    color: white;
+    color: #fff;
 }
 .cm-property {
     color: #92a75c;
@@ -111,5 +111,5 @@ pre {
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: white !important;
+    color: #fff !important;
 }

@@ -22,14 +22,14 @@
     border-left: 1px solid #fc0;
 }
 .cm-selectionBackground {
-    background: rgb(128 203 196 / 20%) !important;
+    background: #80cbc433 !important;
 }
 &.cm-focused .cm-selectionBackground {
     background: #212431 !important;
 }
 .cm-activeline-background,
 .cm-activeline-gutter .cm-linenumber {
-    background: rgb(33 36 49 / 50%);
+    background: #21243180;
 }
 .cm-keyword {
     color: #d46c6c;
@@ -91,10 +91,10 @@
     color: #decb6b;
 }
 .cm-error {
-    color: rgb(255 255 255 / 100%);
+    color: #fff;
     background-color: #ff5370;
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

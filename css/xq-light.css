@@ -32,14 +32,14 @@ THE SOFTWARE.
     text-decoration: underline;
 }
 .cm-variable {
-    color: black;
+    color: #000;
 }
 .cm-variable-2 {
-    color: black;
+    color: #000;
 }
 .cm-variable-3,
 .cm-type {
-    color: black;
+    color: #000;
 }
 .cm-property {
 }
@@ -78,6 +78,6 @@ THE SOFTWARE.
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: black !important;
+    color: #000 !important;
     background: yellow;
 }

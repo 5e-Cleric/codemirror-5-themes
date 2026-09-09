@@ -5,7 +5,6 @@
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 */
-
 & {
     background: #000;
     color: #ccc;
@@ -14,7 +13,7 @@
     background: #2d2d2d !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(45 45 45 / 99%) !important;
+    background: #2d2d2dfc !important;
 }
 .cm-gutters {
     background: #000;
@@ -23,14 +22,12 @@
 .cm-gutterElement span {
     color: #f2777a;
 }
-
 .cm-linenumber {
     color: #515151;
 }
 .cm-cursor {
     border-left: 1px solid #6a6a6a;
 }
-
 .cm-comment {
     color: #d27b53;
 }
@@ -40,7 +37,6 @@
 .cm-number {
     color: #a16a94;
 }
-
 .cm-property,
 .cm-attribute {
     color: #9c9;
@@ -51,7 +47,6 @@
 .cm-string {
     color: #fc6;
 }
-
 .cm-variable {
     color: #9c9;
 }
@@ -74,11 +69,10 @@
     background: #f2777a;
     color: #6a6a6a;
 }
-
 .cm-activeLine {
     background: #34360033;
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

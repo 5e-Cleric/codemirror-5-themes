@@ -8,20 +8,20 @@
     background: #447 !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(68 68 119 / 99%) !important;
+    background: #444477fc !important;
 }
 .cm-gutters {
     background: #0a001f;
     border-right: 1px solid #aaa;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #f8f8f8;
 }
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 .cm-comment {
     color: #8900d1;
@@ -49,7 +49,7 @@
 .cm-variable-3,
 .cm-def,
 .cm-type {
-    color: white;
+    color: #fff;
 }
 .cm-bracket {
     color: #8da6ce;
@@ -69,5 +69,5 @@
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: white !important;
+    color: #fff !important;
 }

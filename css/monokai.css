@@ -8,14 +8,14 @@
     background: #49483e !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(73 72 62 / 99%) !important;
+    background: #49483efc !important;
 }
 .cm-gutters {
     background: #272822;
     border-right: 0;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #d0d0d0;
@@ -91,7 +91,7 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }
 .cm-pageLine {
     background: #444;

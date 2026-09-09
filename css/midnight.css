@@ -18,7 +18,7 @@
     border-right: 1px solid;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
     color: #d0d0d0;
@@ -69,5 +69,5 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

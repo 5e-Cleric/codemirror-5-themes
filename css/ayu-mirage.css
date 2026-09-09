@@ -8,17 +8,17 @@
     background: #34455a !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(25 30 42 / 9900%) !important;
+    background: #191e2afc !important;
 }
 .cm-gutters {
     background: #1f2430;
     border-right: 0;
 }
 .cm-gutterElement span {
-    color: white;
+    color: #fff;
 }
 .cm-linenumber {
-    color: rgb(61 66 77 / 9900%);
+    color: #3d424dfc;
 }
 .cm-cursor {
     border-left: 1px solid #fc6;
@@ -82,7 +82,7 @@
     color: #ffd580;
 }
 .cm-bracket {
-    color: rgb(92 207 230 / 8000%);
+    color: #5ccfe6cc;
 }
 .cm-tag {
     color: #5ccfe6;
@@ -101,5 +101,5 @@
 }
 .cm-matchingbracket {
     text-decoration: underline;
-    color: white !important;
+    color: #fff !important;
 }

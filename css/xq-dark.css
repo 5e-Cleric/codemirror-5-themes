@@ -26,7 +26,7 @@ THE SOFTWARE.
     background: #27007a !important;
 }
 &.cm-focused .cm-selectionBackground {
-    background: rgb(39 0 122 / 99%) !important;
+    background: #27007afc !important;
 }
 .cm-gutters {
     background: #0a001f;
@@ -39,7 +39,7 @@ THE SOFTWARE.
     color: #f8f8f8;
 }
 .cm-cursor {
-    border-left: 1px solid white;
+    border-left: 1px solid #fff;
 }
 .cm-keyword {
     color: #ffbd40;
@@ -100,5 +100,5 @@ THE SOFTWARE.
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: white !important;
+    color: #fff !important;
 }

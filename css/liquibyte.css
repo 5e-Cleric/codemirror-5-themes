@@ -106,13 +106,13 @@
 }
 .cm-selectionBackground,
 &.cm-focused .cm-selectionBackground {
-    background-color: rgb(255 0 0 / 25%) !important;
+    background-color: #ff000040 !important;
 }
 .cm-compilation {
-    background-color: rgb(255 255 255 / 12%);
+    background-color: #ffffff1f;
 }
 .cm-activeLine {
-    background-color: rgb(0 255 0 / 15%);
+    background-color: #00ff0026;
 }
 /* Default styles for common addons */
 & .cm-matchingbracket {
@@ -124,17 +124,17 @@
     font-weight: bold;
 }
 .cm-matchingtag {
-    background-color: rgb(150 255 0 / 30%);
+    background-color: #96ff004d;
 }
 /* Scrollbars */
 /* Simple */
 div.cm-simplescroll-horizontal div:hover,
 div.cm-simplescroll-vertical div:hover {
-    background-color: rgb(80 80 80 / 70%);
+    background-color: #505050b3;
 }
 div.cm-simplescroll-horizontal div,
 div.cm-simplescroll-vertical div {
-    background-color: rgb(80 80 80 / 30%);
+    background-color: #5050504d;
     border: 1px solid #404040;
     border-radius: 5px;
 }

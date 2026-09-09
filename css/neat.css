@@ -20,7 +20,7 @@
     color: #0aa;
 }
 .cm-variable {
-    color: black;
+    color: #000;
 }
 .cm-number,
 .cm-atom {
@@ -37,5 +37,5 @@
 }
 .cm-matchingbracket {
     outline: 1px solid grey;
-    color: black !important;
+    color: #000 !important;
 }
