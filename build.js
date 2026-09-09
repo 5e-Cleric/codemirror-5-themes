@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import postcss from "postcss";
 import { fileURLToPath } from "url";
-import { EditorView } from "@codemirror/view";
 
 function toCamelCase(prop) {
     return prop.replace(/-([a-z])/g, (_, c) => c.toUpperCase());

@@ -24,11 +24,14 @@
     },
     "homepage": "https://github.com/5e-Cleric/codemirror-v6-spell-checker#readme",
     "dependencies": {
-        "@codemirror/view": "^6.41.1"
+        "postcss": "^8.5.28"
+    },
+    "peerDependencies": {
+        "@codemirror/view": "^6.0.0"
     },
     "devDependencies": {
-        "postcss": "^8.5.10",
-        "prettier": "^3.8.3",
-        "vite": "^8.0.9"
+        "@codemirror/view": "^6.43.11",
+        "prettier": "^3.9.6",
+        "vite": "^8.2.2"
     }
 }
