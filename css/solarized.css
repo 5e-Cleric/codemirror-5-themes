@@ -1,11 +1,9 @@
 /*
-Solarized theme for code-mirror
-http://ethanschoonover.com/solarized
-*/
+    Solarized theme for code-mirror
+    http://ethanschoonover.com/solarized
 
-/*
-Solarized color palette
-http://ethanschoonover.com/solarized/img/solarized-palette.png
+    Solarized color palette
+    http://ethanschoonover.com/solarized/img/solarized-palette.png
 */
 
 .solarized.base03 {
@@ -61,8 +59,6 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 
 & {
     line-height: 1.45em;
-    color-profile: srgb;
-    rendering-intent: auto;
 }
 
 & {
