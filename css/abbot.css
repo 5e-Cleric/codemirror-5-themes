@@ -1,45 +1,45 @@
 /* mode: dark */
 /*
- * abbott.css
- * A warm, dark theme for prose and code, with pastels and pretty greens.
- *
- * Ported from abbott.vim (https://github.com/bcat/abbott.vim) version 2.1.
- * Original design and CodeMirror port by Jonathan Rascher.
- *
- * This theme shares the following color palette with the Vim color scheme.
- *
- * Brown shades:
- *   bistre: #231c14
- *   chocolate: #3c3022
- *   cocoa: #745d42
- *   vanilla_cream: #fef3b4
- *
- * Red shades:
- *   crimson: #d80450
- *   cinnabar: #f63f05
- *
- * Green shades:
- *   dark_olive: #273900
- *   forest_green: #24a507
- *   chartreuse: #a0ea00
- *   pastel_chartreuse: #d8ff84
- *
- * Yellow shades:
- *   marigold: #fbb32f
- *   lemon_meringue: #fbec5d
- *
- * Blue shades:
- *   cornflower_blue: #3f91f1
- *   periwinkle_blue: #8ccdf0
- *
- * Magenta shades:
- *   french_pink: #ec6c99
- *   lavender: #e6a2f3
- *
- * Cyan shades:
- *   zomp: #39a78d
- *   seafoam_green: #00ff7f
- */
+abbott.css
+A warm, dark theme for prose and code, with pastels and pretty greens.
+
+Ported from abbott.vim (https://github.com/bcat/abbott.vim) version 2.1.
+Original design and CodeMirror port by Jonathan Rascher.
+
+This theme shares the following color palette with the Vim color scheme.
+
+Brown shades:
+  bistre: #231c14
+  chocolate: #3c3022
+  cocoa: #745d42
+  vanilla_cream: #fef3b4
+
+Red shades:
+  crimson: #d80450
+  cinnabar: #f63f05
+
+Green shades:
+  dark_olive: #273900
+  forest_green: #24a507
+  chartreuse: #a0ea00
+  pastel_chartreuse: #d8ff84
+
+Yellow shades:
+  marigold: #fbb32f
+  lemon_meringue: #fbec5d
+
+Blue shades:
+  cornflower_blue: #3f91f1
+  periwinkle_blue: #8ccdf0
+
+Magenta shades:
+  french_pink: #ec6c99
+  lavender: #e6a2f3
+
+Cyan shades:
+  zomp: #39a78d
+  seafoam_green: #00ff7f
+*/
 /* Style the UI: */
 /* Equivalent to Vim's Normal group. */
 & {
@@ -62,10 +62,10 @@
     color: #fbb32f /* marigold */;
 }
 /*
- * Roughly equivalent to Vim's CursorColumn group. (We use a brighter color
- * since Vim's cursorcolumn option highlights a whole column, whereas
- * CodeMirror's rule just highlights a thin line.)
- */
+Roughly equivalent to Vim's CursorColumn group. (We use a brighter color
+since Vim's cursorcolumn option highlights a whole column, whereas
+CodeMirror's rule just highlights a thin line.)
+*/
 .cm-ruler {
     border-color: #745d42 /* cocoa */;
 }
@@ -77,17 +77,17 @@
 .cm-fat-cursor .cm-cursor,
 .cm-animate-fat-cursor {
     /*
-   * CodeMirror doesn't allow changing the foreground color of the character
-   * under the cursor, so we can't use a reverse video effect for the cursor.
-   * Instead, make it semitransparent.
-   */
+  CodeMirror doesn't allow changing the foreground color of the character
+  under the cursor, so we can't use a reverse video effect for the cursor.
+  Instead, make it semitransparent.
+*/
     background: #a0ea0080 /* chartreuse */;
 }
 .cm-fat-cursor .cm-cursors {
     /*
-   * Boost the z-index so the fat cursor shows up on top of text and
-   * matchingbracket/matchingtag highlights.
-   */
+  Boost the z-index so the fat cursor shows up on top of text and
+  matchingbracket/matchingtag highlights.
+*/
     z-index: 3;
 }
 /* Equivalent to Vim's Cursor group in replace mode. */
@@ -219,10 +219,10 @@
     font-weight: bold;
 }
 /*
- * Roughly equivalent to Vim's Error group. (Vim doesn't seem to have a direct
- * equivalent in its own matchparen plugin, but many syntax highlighting plugins
- * mark mismatched brackets as Error.)
- */
+Roughly equivalent to Vim's Error group. (Vim doesn't seem to have a direct
+equivalent in its own matchparen plugin, but many syntax highlighting plugins
+mark mismatched brackets as Error.)
+*/
 .cm-nonmatchingbracket {
     background: #d80450 /* crimson */ !important;
     color: #231c14 /* bistre */ !important;

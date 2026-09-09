@@ -57,20 +57,20 @@
 }
 .cm-string-2 {
     color: #bd6b18;
-} /* ? */
+}
 .cm-meta {
     background-color: #141414;
     color: #f7f7f7;
-} /* ? */
+}
 .cm-builtin {
     color: #cda869;
-} /* ? */
+}
 .cm-tag {
     color: #997643;
 }
 .cm-attribute {
     color: #d6bb6d;
-} /* ? */
+}
 .cm-header {
     color: #ff6400;
 }
